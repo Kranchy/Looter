@@ -6,7 +6,8 @@ public abstract class Weapon : Item
 {
     public int Damage;
 
-    public List<Sprite> UsageAnimation;
+    public List<Sprite> UsageAnimRight;
+    public List<Sprite> UsageAnimLeft;
 
 	// Use this for initialization
 	void Start () {
