@@ -21,7 +21,7 @@ public class InputManager : MonoBehaviour {
 			gameObject.transform.Translate(new Vector3(player.speed,0,0));
 		}
 		if (Input.GetKeyDown(KeyCode.Space)){
-			if (/*player.passive.name == "boots" ||*/ player.onGround){
+			if (/*player.passive.name == "boots" ||*/ player.OnGround){
 				jumpTime = 5;
 			}
 		}

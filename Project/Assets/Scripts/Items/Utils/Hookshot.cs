@@ -14,7 +14,16 @@ public class Hookshot : Util {
 		get { return "Swing from the ceiling!"; }
 	}
 
-	void Start () {
+    public override void OnEquip(Player player)
+    {
+    }
+
+    public override void OnUnequip(Player player)
+    {
+    }
+
+    void Start()
+    {
 	
 	}
 	

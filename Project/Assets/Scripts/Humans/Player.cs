@@ -11,16 +11,19 @@ public class Player : Human {
 	List<Util> utilInventory;
 	List<Passive> passiveInventory;
 
-	public bool onGround;
+    public float SwimmingSpeed;
+
+	public bool OnGround;
+    public bool Shielded;
 
 	public void OnCollisionEnter2D(Collision2D collider){
 	
-		onGround = true;
+		OnGround = true;
 	}
 
 	public void OnCollisionExit2D(Collision2D collider){
 		
-		onGround = false;
+		OnGround = false;
 	}
 
 

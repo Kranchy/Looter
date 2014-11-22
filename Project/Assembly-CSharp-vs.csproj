@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,14 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-     <Compile Include="Assets\Scripts\Ennemy.cs" />
-=======
-     <Compile Include="Assets\Scripts\Humans\Ennemy.cs" />
+     <Compile Include="Assets\Scripts\Humans\Enemy.cs" />
      <Compile Include="Assets\Scripts\Humans\Human.cs" />
      <Compile Include="Assets\Scripts\Humans\Player.cs" />
      <Compile Include="Assets\Scripts\InputManager.cs" />
->>>>>>> bffd77de99ddabc01123007c924d68a7f76ce2e4
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\Passive.cs" />
      <Compile Include="Assets\Scripts\Items\Passives\Armor.cs" />
@@ -64,14 +60,10 @@
      <Compile Include="Assets\Scripts\Items\Utils\Shield.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Shovel.cs" />
      <Compile Include="Assets\Scripts\Items\Weapon.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Items\Weapons\Bomb.cs" />
      <Compile Include="Assets\Scripts\Items\Weapons\Bow.cs" />
      <Compile Include="Assets\Scripts\Items\Weapons\Sword.cs" />
      <Compile Include="Assets\Scripts\Items\Weapons\ThrowingKnife.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
-=======
->>>>>>> bffd77de99ddabc01123007c924d68a7f76ce2e4
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
