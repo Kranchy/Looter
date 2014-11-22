@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class Sword : Weapon {
-
-	// Use this for initialization
+public class Sword : Weapon
+{
+    // Use this for initialization
 	public override string Name
 	{
 		get { return "Sword"; }
@@ -14,14 +15,6 @@ public class Sword : Weapon {
 		get { return "Slash your foes!"; }
 	}
 
-    public override void OnEquip(Player player)
-    {
-    }
-
-    public override void OnUnequip(Player player)
-    {
-    }
-
     void Start()
     {
 	
@@ -29,6 +22,11 @@ public class Sword : Weapon {
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+
+    }
+
+    public override void Use()
+    {
+        throw new System.NotImplementedException();
+    }
 }

@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class Shovel : Util {
-
+public class Shovel : Util
+{
 	// Use this for initialization
 	public override string Name
 	{
@@ -14,21 +15,17 @@ public class Shovel : Util {
 		get { return "Dig!"; }
 	}
 
-    public override void OnEquip(Player player)
-    {
-    }
-
-    public override void OnUnequip(Player player)
-    {
-    }
-
     void Start()
     {
-	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
-	}
+	void Update ()
+    {
+    }
+
+    public override void Use()
+    {
+        throw new System.NotImplementedException();
+    }
 }

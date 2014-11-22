@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class Shield : Util {
-
+public class Shield : Util
+{
 	// Use this for initialization
 	public override string Name
 	{
@@ -14,23 +15,17 @@ public class Shield : Util {
 		get { return "Hide from projectiles and push your enemies!"; }
 	}
 
-    public override void OnEquip(Player player)
-    {
-        player.Shielded = true;
-    }
-
-    public override void OnUnequip(Player player)
-    {
-        player.Shielded = false;
-    }
-
     void Start()
     {
-	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
-	}
+	void Update ()
+    {
+    }
+
+    public override void Use()
+    {
+        throw new System.NotImplementedException();
+    }
 }

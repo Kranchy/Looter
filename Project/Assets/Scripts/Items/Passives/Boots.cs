@@ -14,6 +14,16 @@ public class Boots : Passive {
         get { return "Do a double jump!"; }
     }
 
+    void Start()
+    {
+	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+
+    }
+
     public override void OnEquip(Player player)
     {
         player.Booted = true;
@@ -23,14 +33,4 @@ public class Boots : Passive {
     {
         player.Booted = false;
     }
-
-    void Start()
-    {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

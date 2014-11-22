@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class Bow : Weapon {
-
+public class Bow : Weapon
+{
 	// Use this for initialization
 	public override string Name
 	{
@@ -14,14 +15,6 @@ public class Bow : Weapon {
 		get { return "Shoot long-range arrows!"; }
 	}
 
-    public override void OnEquip(Player player)
-    {
-    }
-
-    public override void OnUnequip(Player player)
-    {
-    }
-
     void Start()
     {
 	
@@ -29,6 +22,11 @@ public class Bow : Weapon {
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+
+    }
+
+    public override void Use()
+    {
+        throw new System.NotImplementedException();
+    }
 }
