@@ -21,8 +21,8 @@ public class Player : Human
     public List<Sprite> LowerAnimLeft;
     public List<Sprite> UpperAnimRight;
     public List<Sprite> UpperAnimLeft;
-	public List<Sprite> AnimationSautDroite;
-	public List<Sprite> AnimationSautGauche;
+	public List<Sprite> JumpAnimRight;
+	public List<Sprite> JumpAnimLeft;
 
 //	public void OnCollisionEnter2D(Collision2D collision)
 //    {	
