@@ -316,12 +316,17 @@
  </layer>
  <layer name="terrain" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJzVk+EOgjAMhBuYJgwxDH8oPpDR938h26QXjmVKAvLDJpcxRr8dXSeyT/Sq005si0Z1+SN+papVB5//qj7GDaqzKhLT+Ev+H6qn6vWBWzt3UB1Vo+ru61d6/uZLnBN8hIybnHtbYJWi93xxf9Hng6v1+ZoaVzL9txALdTC/40rf8D6Qfwv439ITfGbgRV9rXVt6upF5LZLM/2Ft5L3WkiI9216dTHcozw8uXsfdgF/0CvcL8/kOIZrs+4724zqDwVzuSeyb87kfwMHIuanwPhVy8zPuC3nQG6gVCQQ=
+   eJzVk1ELgzAMhINzA+sc1j1s7v//0CVwh2cpG+h8WOCotebrmaZmx8Touh7Ejuhc9z/iN66T64z5r+oT3NZ1cyVhBn+Pf/oN7uS6uGbXC+sPef7ky8BpMVLBzeA+v7BqMSLf4C9hPkE95ltq3Njy3yYs1iH8zht90/sk/iPof09P6JmRl7DWQ3t6orN1LbKt/2FrlL3Wi5I8x16DLXeozG8hXefdoF/2ivaL8vUOMbri+0H20zqToVztSe5b8rUfyOGoubnyPldyyzMeK3nUG0v0CC0=
   </data>
  </layer>
  <layer name="deco" width="24" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRMBIBAAYAAAE=
+  </data>
+ </layer>
+ <layer name="terre" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxW4AbEHEHsOtENGwSgYBQMCAGIhANg=
   </data>
  </layer>
 </map>
