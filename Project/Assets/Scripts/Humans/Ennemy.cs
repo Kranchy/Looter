@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Enemy : Human {
 
-	int health;
-	float speed;
+	Weapon weapon;
+	public Object IA;
 
 }
