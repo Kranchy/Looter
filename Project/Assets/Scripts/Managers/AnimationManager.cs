@@ -100,6 +100,22 @@ public class AnimationManager : MonoBehaviour
 
             AnimJumpLeft();
         }
+
+        if (command == InputManager.Command.Use_Weapon_Right)
+        {
+            UpperAnimCount = Weapon.UsageAnimRight.Count;
+
+            UpdateUpperAnim();
+            AnimWeaponRight();
+        }
+
+        if (command == InputManager.Command.Use_Weapon_Left)
+        {
+            UpperAnimCount = Weapon.UsageAnimLeft.Count;
+
+            UpdateUpperAnim();
+            AnimWeaponLeft();
+        }
     }
 
     private void UpdateLowerAnim()
@@ -147,10 +163,14 @@ public class AnimationManager : MonoBehaviour
     private void AnimWeaponRight()
     {
         UpperRenderer.sprite = Weapon.UsageAnimRight[UpperAnimIndex];
+        if (UpperAnimIndex == UpperAnimCount - 1)
+            Player.UsingWeapon = false;
     }
 
     private void AnimWeaponLeft()
     {
         UpperRenderer.sprite = Weapon.UsageAnimLeft[UpperAnimIndex];
+        if (UpperAnimIndex == UpperAnimCount - 1)
+            Player.UsingWeapon = false;
     }
 }
