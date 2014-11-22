@@ -15,8 +15,10 @@ public class Player : Human
     public bool Shielded;
     public bool Booted;
 
-	public List<Sprite> AnimationDroite;
-	public List<Sprite> AnimationGauche;
+	public List<Sprite> LowerAnimRight;
+    public List<Sprite> LowerAnimLeft;
+    public List<Sprite> UpperAnimRight;
+    public List<Sprite> UpperAnimLeft;
 	public List<Sprite> AnimationSautDroite;
 	public List<Sprite> AnimationSautGauche;
 
