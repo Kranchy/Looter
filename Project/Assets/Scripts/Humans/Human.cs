@@ -3,8 +3,7 @@ using System.Collections;
 
 public class Human : MonoBehaviour {
 
-	public int hp;
-	public float speed;
-	public float vSpeed;
-
+	public int HP;
+	public float Speed;
+	public float JumpSpeed;
 }

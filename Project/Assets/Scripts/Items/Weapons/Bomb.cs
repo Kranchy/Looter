@@ -14,7 +14,16 @@ public class Bomb : Weapon {
 		get { return "Burn it with fire!"; }
 	}
 
-	void Start () {
+    public override void OnEquip(Player player)
+    {
+    }
+
+    public override void OnUnequip(Player player)
+    {
+    }
+
+    void Start()
+    {
 	
 	}
 	

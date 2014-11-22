@@ -14,7 +14,18 @@ public class Boots : Passive {
         get { return "Do a double jump!"; }
     }
 
-    void Start () {
+    public override void OnEquip(Player player)
+    {
+        player.Booted = true;
+    }
+
+    public override void OnUnequip(Player player)
+    {
+        player.Booted = false;
+    }
+
+    void Start()
+    {
 	
 	}
 	

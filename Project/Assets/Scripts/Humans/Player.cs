@@ -1,28 +1,46 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class Player : Human {
+public class Player : Human
+{
+    private Weapon Weapon { get; set; }
+    private Util Util { get; set; }
+    private Passive Passive { get; set; }
 
-	Weapon weapon;
-	Util util;
-	Passive passif;
+    public float SwimmingSpeed;
 
-	List<Weapon> weaponInventory;
-	List<Util> utilInventory;
-	List<Passive> passiveInventory;
+	public bool OnGround;
 
-	public bool onGround;
+    public bool Armored;
+    public bool Shielded;
+    public bool Booted;
 
-	public void OnCollisionEnter2D(Collision2D collider){
-	
-		onGround = true;
+	public List<Sprite> AnimationDroite;
+	public List<Sprite> AnimationGauche;
+
+	public void OnCollisionEnter2D(Collision2D collider)
+    {	
+		OnGround = true;
 	}
 
-	public void OnCollisionExit2D(Collision2D collider){
-		
-		onGround = false;
+	public void OnCollisionExit2D(Collision2D collider)
+    {		
+		OnGround = false;
 	}
 
+    public void EquipWeapon(Weapon weapon)
+    {
+        Weapon = weapon;
+    }
 
+    public void EquipUtil(Util util)
+    {
+        Util = util;
+    }
+
+    public void EquipPassive(Passive passive)
+    {
+        Passive = passive;
+    }
 }
 

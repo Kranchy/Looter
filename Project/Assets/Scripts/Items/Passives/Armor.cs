@@ -14,6 +14,18 @@ public class Armor : Passive {
         get { return "Protect yourself but move slower!"; }
     }
 
+    public override void OnEquip(Player player)
+    {
+        player.Armored = true;
+        player.Speed *= 0.5f;
+    }
+
+    public override void OnUnequip(Player player)
+    {
+        player.Armored = false;
+        player.Speed *= 2;
+    }
+
     void Start ()
     {
 
