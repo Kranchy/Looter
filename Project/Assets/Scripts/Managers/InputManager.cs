@@ -40,18 +40,32 @@ public class InputManager : MonoBehaviour
 	{
 		// Capture des mouvements
 
-        if (Player.Booted || Player.OnGround) {
-						if (Input.GetAxis ("Jump") > 0) {
-								JumpTime = 5;
 
-								if (Input.GetAxis ("Horizontal") < 0) {
-										PlayerObject.transform.Translate (new Vector3 (-Player.Speed, 0, 0));
+        if (Player.OnGround)
+        {
+            if (Input.GetAxis("Horizontal") < 0)
+            {
+                PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
 
-										if (OnNewCommand != null)
-												OnNewCommand (Command.Jump_Left);
-								}
-								if (Input.GetAxis ("Horizontal") > 0) {
-										PlayerObject.transform.Translate (new Vector3 (Player.Speed, 0, 0));
+                if (OnNewCommand != null) OnNewCommand(Command.Walk_Left);
+
+                if (Input.GetAxis("Jump") > 0)
+                {
+                    JumpTime = 5;
+                    
+                    if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
+                }
+            }
+            if (Input.GetAxis("Horizontal") > 0)
+            {
+                PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
+
+                if (OnNewCommand != null) OnNewCommand(Command.Walk_Right);
+
+                if (Input.GetAxis("Jump") > 0)
+                {
+                    JumpTime = 5;
+
 
 										if (OnNewCommand != null)
 												OnNewCommand (Command.Jump_Right);
@@ -64,23 +78,30 @@ public class InputManager : MonoBehaviour
 								JumpTime -= 1;
 						}
 
-						if (Player.OnGround) {
-								if (Input.GetAxis ("Horizontal") < 0) {
-										PlayerObject.transform.Translate (new Vector3 (-Player.Speed, 0, 0));
-
-										if (OnNewCommand != null)
-												OnNewCommand (Command.Walk_Left);
-								}
-
-								if (Input.GetAxis ("Horizontal") > 0) {
-										PlayerObject.transform.Translate (new Vector3 (Player.Speed, 0, 0));
-
-										if (OnNewCommand != null)
-												OnNewCommand (Command.Walk_Right);
-								}
-						}
+	
 				}
-        
+
+        if (!Player.OnGround)
+        {
+            if (Player.Booted && Input.GetAxis("Jump") > 0)
+            {
+                JumpTime = 5;
+            }
+
+            if (Input.GetAxis("Horizontal") < 0)
+            {
+                PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
+
+                if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
+            }
+            if (Input.GetAxis("Horizontal") > 0)
+            {
+                PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
+
+                if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
+            }
+        }
+
         //Capture des actions
         
         if (Input.GetAxis ("Weapon") > 0)
