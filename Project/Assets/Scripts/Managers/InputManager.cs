@@ -53,6 +53,7 @@ public class InputManager : MonoBehaviour
 					CurrentAnim ++;
                 }
 				LowerRenderer.sprite = Player.AnimationSautGauche[CurrentAnim];
+				UpperRenderer.sprite = null;
 			}
         }
 		if (Input.GetAxis ("Horizontal") > 0)
@@ -79,6 +80,7 @@ public class InputManager : MonoBehaviour
 					CurrentAnim ++;
 				}
 				LowerRenderer.sprite = Player.AnimationSautDroite [CurrentAnim];
+				UpperRenderer.sprite = null;
 			}
         }
         if (Input.GetAxis ("Jump") > 0)
