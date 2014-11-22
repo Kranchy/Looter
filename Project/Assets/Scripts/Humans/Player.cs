@@ -22,16 +22,19 @@ public class Player : Human
 	public List<Sprite> AnimationSautDroite;
 	public List<Sprite> AnimationSautGauche;
 
-	public void OnCollisionEnter2D(Collision2D collider)
+	public void OnCollisionEnter2D(Collision2D collision)
     {	
-		if(collider.transform.position.y < gameObject.transform.position.y)
-		OnGround = true;
+		if (collision.contacts [0].normal.x == 0) {
+						OnGround = true;
+				}
+				
 	}
 
-	public void OnCollisionExit2D(Collision2D collider)
+	public void OnCollisionExit2D(Collision2D collision)
     {		
-		if(collider.transform.position.y < gameObject.transform.position.y)
-		OnGround = false;
+		if (collision.contacts [0].normal.x == 0) {
+						OnGround = false;
+				}
 	}
 
     public void EquipWeapon(Weapon weapon)
