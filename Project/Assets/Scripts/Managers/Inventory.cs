@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class Inventory : MonoBehaviour
 {
     public Player Player;
+    public AnimationManager AnimationManager;
 
     public List<Weapon> Weapons;
     public List<Util> Utils;
@@ -14,8 +15,11 @@ public class Inventory : MonoBehaviour
     private float TimeLeft { get; set; }
     
     // Use this for initialization
-	void Start () {
-	
+	void Start ()
+    {
+        GameObject go = (GameObject)Instantiate(Resources.Load("Prefabs/Items/Sword"));
+        Sword sword = (Sword)go.GetComponent("Sword");
+        Player.EquipWeapon(sword);
 	}
 	
 	// Update is called once per frame
