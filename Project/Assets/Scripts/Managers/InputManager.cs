@@ -67,6 +67,7 @@ public class InputManager : MonoBehaviour
 					CurrentAnim ++;
                 }
 				LowerRenderer.sprite = Player.AnimationSautGauche[CurrentAnim];
+				UpperRenderer.sprite = null;
 			}
         }
 		if (Input.GetAxis ("Horizontal") > 0)
@@ -92,7 +93,12 @@ public class InputManager : MonoBehaviour
 				} else {
 					CurrentAnim ++;
 				}
+<<<<<<< HEAD
 				LowerRenderer.sprite = Player.AnimationSautDroite[CurrentAnim];
+=======
+				LowerRenderer.sprite = Player.AnimationSautDroite [CurrentAnim];
+				UpperRenderer.sprite = null;
+>>>>>>> f6afb38db369f26dc1729fb76c928ccd3bf84ce7
 			}
         }
         if (Input.GetAxis ("Jump") > 0)
@@ -104,7 +110,7 @@ public class InputManager : MonoBehaviour
         }
         if (JumpTime > 0)
         {
-            RigidBody.AddForce (Vector3.up * 100);
+            RigidBody.AddForce (Vector3.up * 75);
             JumpTime -= 1;
         }
         
