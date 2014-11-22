@@ -24,11 +24,13 @@ public class Player : Human
 
 	public void OnCollisionEnter2D(Collision2D collider)
     {	
+		if(collider.transform.position.y < gameObject.transform.position.y)
 		OnGround = true;
 	}
 
 	public void OnCollisionExit2D(Collision2D collider)
     {		
+		if(collider.transform.position.y < gameObject.transform.position.y)
 		OnGround = false;
 	}
 
