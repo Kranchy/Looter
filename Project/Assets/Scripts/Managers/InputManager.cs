@@ -40,21 +40,30 @@ public class InputManager : MonoBehaviour
 	{
 		// Capture des mouvements
 
-        if (Player.Booted || Player.OnGround)
+        if (Player.OnGround)
         {
-            if (Input.GetAxis("Jump") > 0)
+            if (Input.GetAxis("Horizontal") < 0)
             {
-                JumpTime = 5;
+                PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
 
-                if (Input.GetAxis("Horizontal") < 0)
+                if (OnNewCommand != null) OnNewCommand(Command.Walk_Left);
+
+                if (Input.GetAxis("Jump") > 0)
                 {
-                    PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
-
+                    JumpTime = 5;
+                    
                     if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
                 }
-                if (Input.GetAxis("Horizontal") > 0)
+            }
+            if (Input.GetAxis("Horizontal") > 0)
+            {
+                PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
+
+                if (OnNewCommand != null) OnNewCommand(Command.Walk_Right);
+
+                if (Input.GetAxis("Jump") > 0)
                 {
-                    PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
+                    JumpTime = 5;
 
                     if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
                 }
@@ -67,20 +76,24 @@ public class InputManager : MonoBehaviour
             JumpTime -= 1;
         }
 
-		if (Player.OnGround)
+        if (!Player.OnGround)
         {
+            if (Player.Booted && Input.GetAxis("Jump") > 0)
+            {
+                JumpTime = 5;
+            }
+
             if (Input.GetAxis("Horizontal") < 0)
             {
                 PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
 
-                if (OnNewCommand != null) OnNewCommand(Command.Walk_Left);
-			}
-
+                if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
+            }
             if (Input.GetAxis("Horizontal") > 0)
             {
                 PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
 
-                if (OnNewCommand != null) OnNewCommand(Command.Walk_Right);
+                if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
             }
         }
         
