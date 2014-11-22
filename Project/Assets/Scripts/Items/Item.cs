@@ -3,9 +3,9 @@ using System.Collections;
 
 public abstract class Item : MonoBehaviour
 {
-    public string Name;
+    public abstract string Name { get; }
 
-    public string Description;
+    public abstract string Description { get; }
 
 	// Use this for initialization
 	void Start () {

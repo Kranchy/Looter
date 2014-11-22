@@ -53,8 +53,18 @@
      <Compile Include="Assets\Scripts\InputManager.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\Passive.cs" />
+     <Compile Include="Assets\Scripts\Items\Passives\Armor.cs" />
+     <Compile Include="Assets\Scripts\Items\Passives\Boots.cs" />
+     <Compile Include="Assets\Scripts\Items\Passives\Flippers.cs" />
      <Compile Include="Assets\Scripts\Items\Util.cs" />
+     <Compile Include="Assets\Scripts\Items\Utils\Hookshot.cs" />
+     <Compile Include="Assets\Scripts\Items\Utils\Shield.cs" />
+     <Compile Include="Assets\Scripts\Items\Utils\Shovel.cs" />
      <Compile Include="Assets\Scripts\Items\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Items\Weapons\Bomb.cs" />
+     <Compile Include="Assets\Scripts\Items\Weapons\Bow.cs" />
+     <Compile Include="Assets\Scripts\Items\Weapons\Sword.cs" />
+     <Compile Include="Assets\Scripts\Items\Weapons\ThrowingKnife.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
