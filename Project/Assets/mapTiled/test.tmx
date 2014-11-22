@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="24" height="16" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="Décor1" tilewidth="48" tileheight="48">
+  <image source="GitHub/projet-tut/resources/tilesets/forest.png" width="336" height="384"/>
+  <terraintypes>
+   <terrain name="Ciel" tile="20"/>
+   <terrain name="solHerbe" tile="16"/>
+  </terraintypes>
+  <tile id="1" terrain=",,,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="2" terrain=",,1,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="3" terrain=",,1,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="4" terrain=",,1,">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="5" terrain="1,1,1,">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="6" terrain="1,1,,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="8" terrain=",1,,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="9" terrain="1,1,1,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="10" terrain="1,1,1,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="11" terrain="1,,1,">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="12" terrain="1,,1,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="13" terrain=",1,1,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="15" terrain=",1,,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="16" terrain="1,1,1,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="17" terrain="1,1,1,1">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="18" terrain="1,,1,">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="22" terrain=",1,,">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="23" terrain="1,1,,">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="24" terrain="1,1,,">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="25" terrain="1,,,">
+   <objectgroup draworder="index">
+    <object x="1.5" y="1.5" width="45" height="45"/>
+   </objectgroup>
+  </tile>
+  <tile id="47" terrain="0,0,0,0"/>
+  <tile id="48" terrain="0,0,0,0"/>
+  <tile id="54" terrain="0,0,0,0"/>
+  <tile id="55" terrain="0,0,0,0"/>
+ </tileset>
+ <tileset firstgid="57" name="deco" tilewidth="48" tileheight="48">
+  <image source="GitHub/projet-tut/resources/tilesets/decor-forest.png" width="192" height="192"/>
+ </tileset>
+ <layer name="fond" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJwzYGBgMBjFo3gUj+JRPOiwIRIG8c2R+BZI4gZQPilmg8wCAKqcSCU=
+  </data>
+ </layer>
+ <layer name="sol" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzdk9EKgDAIRUeth1xF2UPU/39ojhxcZA9BSJFwyKE71lghvBONEIXOyd8LizA4+TdhFw4n/53wPsNZYGF18n/hDP8anncju6dw/V/jwxlRaYHsTuG6e2VG6anNaqAeTc7qInAm9S6alzXrLPREfR/SOkNO4LE+BPelykxbKx6CHjJr/Cbs4YrDPtFzApd5BXA=
+  </data>
+ </layer>
+ <layer name="deco" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOnIHYHohdcMiPAsJgNAxHAS5Ay7ThjManxA57LBifOmx2OTNgNweXWaS6aRSQDwDDqgeQ
+  </data>
+ </layer>
+</map>
