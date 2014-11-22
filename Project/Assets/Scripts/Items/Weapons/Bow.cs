@@ -14,7 +14,16 @@ public class Bow : Weapon {
 		get { return "Shoot long-range arrows!"; }
 	}
 
-	void Start () {
+    public override void OnEquip(Player player)
+    {
+    }
+
+    public override void OnUnequip(Player player)
+    {
+    }
+
+    void Start()
+    {
 	
 	}
 	

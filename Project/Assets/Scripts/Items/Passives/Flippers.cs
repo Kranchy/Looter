@@ -14,7 +14,20 @@ public class Flippers : Passive {
 		get { return "Swim faster!"; }
 	}
 
-	void Start () {
+    public override void OnEquip(Player player)
+    {
+        player.SwimmingSpeed *= 2;
+        player.Speed *= 0.5f;
+    }
+
+    public override void OnUnequip(Player player)
+    {
+        player.SwimmingSpeed *= 0.5f;
+        player.Speed *= 2;
+    }
+
+    void Start()
+    {
 	
 	}
 	

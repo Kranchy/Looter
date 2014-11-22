@@ -14,7 +14,16 @@ public class Sword : Weapon {
 		get { return "Slash your foes!"; }
 	}
 
-	void Start () {
+    public override void OnEquip(Player player)
+    {
+    }
+
+    public override void OnUnequip(Player player)
+    {
+    }
+
+    void Start()
+    {
 	
 	}
 	

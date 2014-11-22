@@ -14,7 +14,16 @@ public class ThrowingKnife : Weapon {
 		get { return "Throw middle-range knives!"; }
 	}
 
-	void Start () {
+    public override void OnEquip(Player player)
+    {
+    }
+
+    public override void OnUnequip(Player player)
+    {
+    }
+
+    void Start()
+    {
 	
 	}
 	

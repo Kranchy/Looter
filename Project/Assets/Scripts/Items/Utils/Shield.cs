@@ -14,7 +14,18 @@ public class Shield : Util {
 		get { return "Hide from projectiles and push your enemies!"; }
 	}
 
-	void Start () {
+    public override void OnEquip(Player player)
+    {
+        player.Shielded = true;
+    }
+
+    public override void OnUnequip(Player player)
+    {
+        player.Shielded = false;
+    }
+
+    void Start()
+    {
 	
 	}
 	

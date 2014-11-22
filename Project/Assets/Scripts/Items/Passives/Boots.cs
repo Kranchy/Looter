@@ -14,7 +14,18 @@ public class Boots : Passive {
         get { return "Do a double jump!"; }
     }
 
-    void Start () {
+    public override void OnEquip(Player player)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override void OnUnequip(Player player)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    void Start()
+    {
 	
 	}
 	

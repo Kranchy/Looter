@@ -7,6 +7,10 @@ public abstract class Item : MonoBehaviour
 
     public abstract string Description { get; }
 
+    public abstract void OnEquip(Player player);
+
+    public abstract void OnUnequip(Player player);
+
 	// Use this for initialization
 	void Start () {
 	
