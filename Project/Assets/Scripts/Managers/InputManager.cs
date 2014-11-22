@@ -92,7 +92,7 @@ public class InputManager : MonoBehaviour
         }
         if (JumpTime > 0)
         {
-            RigidBody.AddForce (Vector3.up * 100);
+            RigidBody.AddForce (Vector3.up * 75);
             JumpTime -= 1;
         }
         

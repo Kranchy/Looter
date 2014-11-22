@@ -213,105 +213,84 @@
  </tileset>
  <tileset firstgid="57" name="terrain2" tilewidth="48" tileheight="48">
   <image source="tileSets/sol2.png" width="576" height="576"/>
-  <tile id="13">
+  <terraintypes>
+   <terrain name="dirt" tile="-1"/>
+  </terraintypes>
+  <tile id="13" terrain=",,,0">
    <objectgroup draworder="index">
     <object x="0" y="0" width="48" height="48"/>
    </objectgroup>
   </tile>
-  <tile id="14">
+  <tile id="14" terrain=",,0,0">
    <objectgroup draworder="index">
     <object x="0" y="-2.66454e-15" width="48" height="48"/>
    </objectgroup>
   </tile>
-  <tile id="15">
+  <tile id="15" terrain=",,0,0">
    <objectgroup draworder="index">
     <object x="1.77636e-15" y="8.88178e-16" width="48" height="48"/>
    </objectgroup>
   </tile>
-  <tile id="16">
+  <tile id="16" terrain=",,0,">
    <objectgroup draworder="index">
     <object x="0" y="-8.88178e-16" width="48" height="48"/>
    </objectgroup>
   </tile>
-  <tile id="17">
+  <tile id="17" terrain="0,0,0,">
    <objectgroup draworder="index">
     <object x="0" y="-8.88178e-16" width="48" height="48"/>
    </objectgroup>
   </tile>
-  <tile id="18">
+  <tile id="18" terrain="0,0,,0">
    <objectgroup draworder="index">
     <object x="-1.77636e-15" y="-2.66454e-15" width="48" height="48"/>
    </objectgroup>
   </tile>
-  <tile id="25">
-   <objectgroup draworder="index">
-    <object x="0" y="-8.88178e-16" width="48" height="48"/>
-   </objectgroup>
+  <tile id="25" terrain=",0,,0">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="26">
-   <objectgroup draworder="index">
-    <object x="0" y="8.88178e-16" width="48" height="48"/>
-   </objectgroup>
+  <tile id="26" terrain="0,0,0,0">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="27">
-   <objectgroup draworder="index">
-    <object x="0" y="-8.88178e-16" width="48" height="48"/>
-   </objectgroup>
+  <tile id="27" terrain="0,0,0,0">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="28">
-   <objectgroup draworder="index">
-    <object x="0" y="8.88178e-16" width="48" height="48"/>
-   </objectgroup>
+  <tile id="28" terrain="0,,0,">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="29">
+  <tile id="29" terrain="0,,0,0">
    <objectgroup draworder="index">
     <object x="8.88178e-16" y="0" width="48" height="48"/>
    </objectgroup>
   </tile>
-  <tile id="30">
+  <tile id="30" terrain=",0,0,0">
    <objectgroup draworder="index">
     <object x="1.77636e-15" y="8.88178e-16" width="48" height="48"/>
    </objectgroup>
   </tile>
-  <tile id="37">
-   <objectgroup draworder="index">
-    <object x="0" y="0" width="48" height="48"/>
-   </objectgroup>
+  <tile id="37" terrain=",0,,0">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="38">
-   <objectgroup draworder="index">
-    <object x="1.77636e-15" y="8.88178e-16" width="48" height="48"/>
-   </objectgroup>
+  <tile id="38" terrain="0,0,0,0">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="39">
-   <objectgroup draworder="index">
-    <object x="0" y="-8.88224e-16" width="48" height="48"/>
-   </objectgroup>
+  <tile id="39" terrain="0,0,0,0">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="40">
-   <objectgroup draworder="index">
-    <object x="0" y="-8.88224e-16" width="48" height="48"/>
-   </objectgroup>
+  <tile id="40" terrain="0,,0,">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="49">
-   <objectgroup draworder="index">
-    <object x="1.77636e-15" y="8.88178e-16" width="48" height="48"/>
-   </objectgroup>
+  <tile id="49" terrain=",0,,">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="50">
-   <objectgroup draworder="index">
-    <object x="1.77636e-15" y="-2.66454e-15" width="48" height="48"/>
-   </objectgroup>
+  <tile id="50" terrain="0,0,,">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="51">
-   <objectgroup draworder="index">
-    <object x="-1.77636e-15" y="0" width="48" height="48"/>
-   </objectgroup>
+  <tile id="51" terrain="0,0,,">
+   <objectgroup draworder="index"/>
   </tile>
-  <tile id="52">
-   <objectgroup draworder="index">
-    <object x="1.77636e-15" y="-1.77636e-15" width="48" height="48"/>
-   </objectgroup>
+  <tile id="52" terrain="0,,,">
+   <objectgroup draworder="index"/>
   </tile>
   <tile id="54">
    <objectgroup draworder="index">
@@ -327,27 +306,27 @@
  </tileset>
  <layer name="fond" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJylVEEOgDAI40nbCf7/MvVgQrBlIIfGDV0tBbZEZN9YASjWxQbrKe9zXsnaPzW8+wvGP/EC5YK+0waM5KyOK6vJyQMDcSvy+70RKIhV9HsPMv9ZDhX+ag/5f3T0dz3a4PzJ/45+E+4P6+1Md5ZD7ONYs+6cvfzeHwvx7myhWWP8Kl8t0/snzkfUMsEFUXZMbg==
+   eJylVMERgDAIYyR9wR7V/Vex/nI0qdQ+ciLWSAJ4mNnZcSSw3CpOEu/yvu+7iPHq6dlfKP4dL5gWds4XEEKzAxero+pBkHwU+TEOASe5av2oW0Fp+OJfmR/8RqV+t9Gnikd4dsbP5mumB3ug/FHevmiijzMNeY4zL943wNVxT/qM+iPlV3eL7Zridxtr2f3/5P3ItezgAVcNTTw=
   </data>
  </layer>
  <layer name="eau" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKRC07iwNQCp3BgaoHTODAxAAAboA41
+   eJxjYBgFo2AUjIJRMBIBAAYAAAE=
   </data>
  </layer>
  <layer name="terrain" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJztks0KgzAQhIOtB42VRA/+vEah7/9ozsIWpsHginqRDnwYdpNh1sS5v+6oApQXegbQnOgneoMP+fcH/dkv1d78kvWhWP6rJT/PP4ARTGA2+FduO/9g9FpTyJy94l2xLHPtkdzXU5F1C15Uz91nkexh2K8GXr9CByLVfGaeSvdFOtMpXx+f9GuqcW/tnQXqc8bofvMt/H0E9Q==
-  </data>
- </layer>
- <layer name="murD" width="24" height="16">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAL6gvwhbv5wAQAwXwDf
+   eJzdU8sOwjAMq9hgWksrCoexHeH//5FEaiQT9cmRSNb6tJ10Meb/4kSYGpgJ5x/5N8KT8CbcCTaBxw7GjwGvOS+isxMW4BU9X7mrOY6GjxvhVdDr0WnFpjyshEvSY61oyvWq1agUnM8VtGs1YC8Ozvfy97yv6O9Kv5XTOsCfC/ZXy2nEvw72Hsz3vzGlPemtUNFuhbwH9pPt8JTra1nDvg+JV7gjaEVY83A3wJ4HLuHQfl1hjHPRQx8C7YfB/bJkeCPM8a7N7OOXz30A6q4IMQ==
   </data>
  </layer>
  <layer name="deco" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwGuAfH1QW4mLdxIKwBy6yUoppabh5L/YWCoufkSGsYmjs0/1xgw9WLDtAIsNDSbngAAm/0ahA==
+   eJxjYKA/uAbEl4jA1wfAbegA5lZy3UIvfwxkeFEaRoMRDGU/XUPjXyLApwdAzvPIYYot35MCyNEzChAAAF19H2g=
+  </data>
+ </layer>
+ <layer name="terre" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHfgBsTuQOw50A4ZBYMKAADCuwDX
   </data>
  </layer>
 </map>
