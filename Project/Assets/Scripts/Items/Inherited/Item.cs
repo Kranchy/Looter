@@ -7,7 +7,7 @@ public abstract class Item : MonoBehaviour
 
     public abstract string Description { get; }
 
-    public Sprite Icon;
+    public Texture2D Icon;
 
 	// Use this for initialization
 	void Start ()

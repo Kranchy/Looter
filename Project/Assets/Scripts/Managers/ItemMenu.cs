@@ -6,14 +6,14 @@ public class ItemMenu : MonoBehaviour {
 	bool printWeaponMenu = false;
 	int i;
 	int selectedItem = 0;
-	Player player;
 	float lastTime;
+
+    public Player Player;
 
 	public Texture2D Selected;
 	public Texture2D Unselected;
 
 	void Start(){
-		player = gameObject.GetComponent("Player") as Player;
 		lastTime = Time.time;
 	}
 
