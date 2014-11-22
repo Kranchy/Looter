@@ -15,6 +15,9 @@ public class Player : Human
     public bool Shielded;
     public bool Booted;
 
+	public List<Sprite> AnimationDroite;
+	public List<Sprite> AnimationGauche;
+
 	public void OnCollisionEnter2D(Collision2D collider){
 	
 		OnGround = true;
