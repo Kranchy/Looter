@@ -6,6 +6,7 @@ public class InputManager : MonoBehaviour {
 	Player player;
 	Rigidbody2D rb;
 	int jumpTime;
+	Vector3 movement;
 	// Use this for initialization
 	void Start () {
 		player = gameObject.GetComponent("Player") as Player;
@@ -16,19 +17,22 @@ public class InputManager : MonoBehaviour {
 	void Update () {
 		if (Input.GetKey("q")){
 			gameObject.transform.Translate(new Vector3(-player.speed,0,0));
+
 		}
 		if (Input.GetKey("d")){
 			gameObject.transform.Translate(new Vector3(player.speed,0,0));
+
 		}
 		if (Input.GetKeyDown(KeyCode.Space)){
-			if (/*player.passive.name == "boots" ||*/ player.onGround){
+			if (/*player.passive.Name == "boots" ||*/ player.onGround){
 				jumpTime = 5;
 			}
 		}
 		if (jumpTime > 0) {
 			rb.AddForce (Vector3.up * 100);
 			jumpTime -= 1;
-				}
+		}
+
 
 	}
 }
