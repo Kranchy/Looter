@@ -42,5 +42,15 @@ public class Player : Human
     {
         Passive = passive;
     }
+
+    public void UseWeapon()
+    {
+        Weapon.Use();
+    }
+
+    public void UseUtil()
+    {
+        Util.Use();
+    }
 }
 

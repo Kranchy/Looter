@@ -14,6 +14,16 @@ public class Flippers : Passive {
 		get { return "Swim faster!"; }
 	}
 
+    void Start()
+    {
+	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+
+    }
+
     public override void OnEquip(Player player)
     {
         player.SwimmingSpeed *= 2;
@@ -25,14 +35,4 @@ public class Flippers : Passive {
         player.SwimmingSpeed *= 0.5f;
         player.Speed *= 2;
     }
-
-    void Start()
-    {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

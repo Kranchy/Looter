@@ -14,6 +14,16 @@ public class Armor : Passive {
         get { return "Protect yourself but move slower!"; }
     }
 
+    void Start ()
+    {
+
+	}
+	
+	// Update is called once per frame
+	void Update () {
+
+    }
+
     public override void OnEquip(Player player)
     {
         player.Armored = true;
@@ -25,14 +35,4 @@ public class Armor : Passive {
         player.Armored = false;
         player.Speed *= 2;
     }
-
-    void Start ()
-    {
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

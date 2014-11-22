@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class ThrowingKnife : Weapon {
-
+public class ThrowingKnife : Weapon
+{
 	// Use this for initialization
 	public override string Name
 	{
@@ -14,14 +15,6 @@ public class ThrowingKnife : Weapon {
 		get { return "Throw middle-range knives!"; }
 	}
 
-    public override void OnEquip(Player player)
-    {
-    }
-
-    public override void OnUnequip(Player player)
-    {
-    }
-
     void Start()
     {
 	
@@ -29,6 +22,11 @@ public class ThrowingKnife : Weapon {
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+
+    }
+
+    public override void Use()
+    {
+        throw new System.NotImplementedException();
+    }
 }

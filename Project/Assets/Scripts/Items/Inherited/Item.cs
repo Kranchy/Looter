@@ -7,17 +7,15 @@ public abstract class Item : MonoBehaviour
 
     public abstract string Description { get; }
 
-    public abstract void OnEquip(Player player);
-
-    public abstract void OnUnequip(Player player);
+    public Sprite Icon;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start ()
+    {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
-	}
+	void Update ()
+    {
+    }
 }
