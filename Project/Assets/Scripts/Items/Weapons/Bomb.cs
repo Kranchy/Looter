@@ -24,9 +24,4 @@ public class Bomb : Weapon
 	void Update () {
 
     }
-
-    public override void Animate(SpriteRenderer spriteRenderer)
-    {
-        throw new System.NotImplementedException();
-    }
 }

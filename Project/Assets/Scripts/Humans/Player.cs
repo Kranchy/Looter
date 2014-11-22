@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 public class Player : Human
 {
-    private Weapon Weapon { get; set; }
-    private Util Util { get; set; }
-    private Passive Passive { get; set; }
+    public Weapon Weapon { get; set; }
+    public Util Util { get; set; }
+    public Passive Passive { get; set; }
 
     public enum Direction
     {
