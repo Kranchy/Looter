@@ -9,9 +9,6 @@ public abstract class Weapon : Item
     public List<Sprite> UsageAnimRight;
     public List<Sprite> UsageAnimLeft;
 
-    public float Chrono;
-    public float TimeLeft;
-
 	// Use this for initialization
 	void Start () {
 	
@@ -21,6 +18,4 @@ public abstract class Weapon : Item
 	void Update () {
 	
 	}
-
-    public abstract void Animate(SpriteRenderer spriteRenderer);
 }

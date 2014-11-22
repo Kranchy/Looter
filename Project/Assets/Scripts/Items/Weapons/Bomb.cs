@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 
 public class Bomb : Weapon
 {
@@ -23,10 +22,5 @@ public class Bomb : Weapon
 	// Update is called once per frame
 	void Update () {
 
-    }
-
-    public override void Animate(SpriteRenderer spriteRenderer)
-    {
-        throw new System.NotImplementedException();
     }
 }
