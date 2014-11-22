@@ -67,9 +67,13 @@
      <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Inventory.cs" />
      <Compile Include="Assets\Scripts\Managers\ItemMenu.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\Obstacle.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\Sand.cs" />
+     <Compile Include="Assets\Scripts\Obstacles\WallD.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
+     <None Include="Assets\Tiled2Unity\Imported\map2.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />

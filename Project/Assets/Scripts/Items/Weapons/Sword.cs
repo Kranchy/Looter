@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class Sword : Weapon
 {
+
     // Use this for initialization
 	public override string Name
 	{

@@ -25,7 +25,7 @@ public class ItemMenu : MonoBehaviour {
 
 
 		if (printWeaponMenu) {
-						for (i = 0; i < (Inventory.Weapons.Count - 1); i++) {
+						for (i = 0; i < (Inventory.Weapons.Count); i++) {
 								if (i == selectedItem) {
 										GUI.Button (new Rect (Screen.width - 200, 10 + 40 * i, 40, 40), Selected);
 								} else {
@@ -35,10 +35,11 @@ public class ItemMenu : MonoBehaviour {
 						}
 				} else {
 								GUI.Box(new Rect(Screen.width - 200,10,40,40), Selected);
+			//GUI.Button (new Rect (Screen.width - 200, 10 + 40 * i, 40, 40), Player.Weapon.Icon);
 				}
 
 		if (printUtilMenu) {
-			for (i = 0; i < (Inventory.Utils.Count - 1); i++) {
+			for (i = 0; i < (Inventory.Utils.Count); i++) {
 				if (i == selectedItem) {
 					GUI.Button (new Rect (Screen.width - 150, 10 + 40 * i, 40, 40), Selected);
 				} else {
@@ -48,10 +49,11 @@ public class ItemMenu : MonoBehaviour {
 			}
 		} else {
 			GUI.Box(new Rect(Screen.width - 150,10,40,40), Selected);
+			//GUI.Button (new Rect (Screen.width - 150, 10 + 40 * i, 40, 40), Player.Util.Icon);
 		}
 
 		if (printPassiveMenu) {
-			for (i = 0; i < (Inventory.Passives.Count - 1); i++) {
+			for (i = 0; i < (Inventory.Passives.Count); i++) {
 				if (i == selectedItem) {
 					GUI.Button (new Rect (Screen.width - 100, 10 + 40 * i, 40, 40), Selected);
 				} else {
@@ -61,6 +63,7 @@ public class ItemMenu : MonoBehaviour {
 			}
 		} else {
 			GUI.Box(new Rect(Screen.width - 100,10,40,40), Selected);
+			//GUI.Button (new Rect (Screen.width - 100, 10 + 40 * i, 40, 40), Player.Passive.Icon);
 		}
 
 	}
@@ -68,18 +71,24 @@ public class ItemMenu : MonoBehaviour {
 	public void OpenWeaponMenu() {
 
 		printWeaponMenu = true;
+		printUtilMenu = false;
+		printPassiveMenu = false;
 
 	}
 
 	public void OpenUtilMenu() {
 		
 		printUtilMenu = true;
+		printWeaponMenu = false;
+		printPassiveMenu = false;
 		
 	}
 
 	public void OpenPassiveMenu() {
 		
 		printPassiveMenu = true;
+		printWeaponMenu = false;
+		printUtilMenu = false;
 		
 	}
 
