@@ -7,10 +7,19 @@ public class Player : Human
     private Util Util { get; set; }
     private Passive Passive { get; set; }
 
+    public enum Direction
+    {
+        Right = 0,
+        Left = 1
+    }
+
+    public Direction Orientation { get; set; }
+
     public float SwimmingSpeed;
 
 	public bool OnGround;
     public bool UsingWeapon;
+    public bool UsingUtil;
 
     public bool Armored;
     public bool Shielded;

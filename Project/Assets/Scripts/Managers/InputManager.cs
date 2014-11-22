@@ -12,7 +12,6 @@ public class InputManager : MonoBehaviour
 
 	int JumpTime;
 	Vector3 Movement;
-	int CurrentAnim = 0;
 
     public enum Command
     {
@@ -38,13 +37,14 @@ public class InputManager : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		// Capture des mouvements
+		// Capture des mouvements et actions
 
         if (Player.OnGround)
         {
             if (Input.GetAxis("Horizontal") < 0)
             {
                 PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
+                Player.Orientation = Player.Direction.Left;
 
                 if (OnNewCommand != null) OnNewCommand(Command.Walk_Left);
 
@@ -58,6 +58,7 @@ public class InputManager : MonoBehaviour
             if (Input.GetAxis("Horizontal") > 0)
             {
                 PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
+                Player.Orientation = Player.Direction.Right;
 
                 if (OnNewCommand != null) OnNewCommand(Command.Walk_Right);
 
@@ -66,6 +67,19 @@ public class InputManager : MonoBehaviour
                     JumpTime = 5;
 
                     if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
+                }
+            }
+            else
+            {
+                if (Input.GetAxis("Jump") > 0)
+                {
+                    JumpTime = 5;
+                    
+                    if (Player.Orientation == Player.Direction.Left)
+                        if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
+                    
+                    if (Player.Orientation == Player.Direction.Right)
+                        if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
                 }
             }
         }
@@ -86,14 +100,24 @@ public class InputManager : MonoBehaviour
             if (Input.GetAxis("Horizontal") < 0)
             {
                 PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
+                Player.Orientation = Player.Direction.Left;
 
                 if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
             }
             if (Input.GetAxis("Horizontal") > 0)
             {
                 PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
+                Player.Orientation = Player.Direction.Right;
 
                 if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
+            }
+            else
+            {
+                if (Player.Orientation == Player.Direction.Left)
+                    if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
+
+                if (Player.Orientation == Player.Direction.Right)
+                    if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
             }
         }
         
@@ -107,7 +131,13 @@ public class InputManager : MonoBehaviour
             }
             else
             {
-                Player.UseWeapon(UpperRenderer);
+                Player.UsingWeapon = true;
+
+                if (Player.Orientation == Player.Direction.Left)
+                    if (OnNewCommand != null) OnNewCommand(Command.Use_Weapon_Left);
+
+                if (Player.Orientation == Player.Direction.Right)
+                    if (OnNewCommand != null) OnNewCommand(Command.Use_Weapon_Right);
             }
         }
         
@@ -119,6 +149,13 @@ public class InputManager : MonoBehaviour
             }
             else
             {
+                Player.UsingUtil = true;
+
+                if (Player.Orientation == Player.Direction.Left)
+                    if (OnNewCommand != null) OnNewCommand(Command.Use_Util_Left);
+
+                if (Player.Orientation == Player.Direction.Right)
+                    if (OnNewCommand != null) OnNewCommand(Command.Use_Util_Right);
             }
         }
         
