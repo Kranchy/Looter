@@ -18,16 +18,29 @@ public class Player : Human
 	public List<Sprite> AnimationDroite;
 	public List<Sprite> AnimationGauche;
 
-	public void OnCollisionEnter2D(Collision2D collider){
-	
+	public void OnCollisionEnter2D(Collision2D collider)
+    {	
 		OnGround = true;
 	}
 
-	public void OnCollisionExit2D(Collision2D collider){
-		
+	public void OnCollisionExit2D(Collision2D collider)
+    {		
 		OnGround = false;
 	}
 
+    public void EquipWeapon(Weapon weapon)
+    {
+        Weapon = weapon;
+    }
 
+    public void EquipUtil(Util util)
+    {
+        Util = util;
+    }
+
+    public void EquipPassive(Passive passive)
+    {
+        Passive = passive;
+    }
 }
 

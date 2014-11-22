@@ -6,5 +6,4 @@ public class Human : MonoBehaviour {
 	public int HP;
 	public float Speed;
 	public float JumpSpeed;
-
 }
