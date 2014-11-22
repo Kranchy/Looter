@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 
 public class ThrowingKnife : Weapon
 {
@@ -17,11 +16,10 @@ public class ThrowingKnife : Weapon
 
     void Start()
     {
-	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-
+	void Update ()
+    {
     }
 }

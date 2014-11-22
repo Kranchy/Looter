@@ -46,32 +46,5 @@ public class Player : Human
 						OnGround = false;
 				}
 	}
-
-    public void EquipWeapon(Weapon weapon)
-    {
-        Weapon = weapon;
-    }
-
-    public void EquipUtil(Util util)
-    {
-        Util = util;
-    }
-
-    public void EquipPassive(Passive passive)
-    {
-        Passive = passive;
-    }
-
-    public void UseWeapon(SpriteRenderer spriteRenderer)
-    {
-        UsingWeapon = true;
-        Weapon.Animate(spriteRenderer);
-        UsingWeapon = false;
-    }
-
-    public void UseUtil()
-    {
-        Util.Use();
-    }
 }
 

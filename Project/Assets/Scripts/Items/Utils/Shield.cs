@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 
 public class Shield : Util
 {
@@ -22,10 +21,5 @@ public class Shield : Util
 	// Update is called once per frame
 	void Update ()
     {
-    }
-
-    public override void Use()
-    {
-        throw new System.NotImplementedException();
     }
 }

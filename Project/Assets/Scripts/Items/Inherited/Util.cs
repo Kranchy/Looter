@@ -8,14 +8,12 @@ public abstract class Util : Item
     public List<Sprite> UsageAnimLeft;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start ()
+    {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void Update ()
+    {
 	}
-
-    public abstract void Use();
 }
