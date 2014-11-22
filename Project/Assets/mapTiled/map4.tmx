@@ -326,7 +326,7 @@
  </layer>
  <layer name="deco" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAeuATE16lo3ihgYLjGAAlXeoBLWOy6hCY+mOL32kA7gEQAi8vBFIYDDcgND0JhSSjfwORheCDjZCDdAADcSxgG
+   eJxjYKAeuATE16lo3ihgYLjGQL9wvQTF2MRg4oMpfq8NtANIBPSMy6ECyA0PQmEJkyekH4YHMk4G0g0Agm8Y3Q==
   </data>
  </layer>
  <layer name="terre" width="24" height="16">
