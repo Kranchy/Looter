@@ -8,6 +8,7 @@ public class Player : Human
     private Passive Passive { get; set; }
 
     public float SwimmingSpeed;
+	float distToGround;
 
 	public bool OnGround;
     public bool UsingWeapon;
@@ -20,23 +21,40 @@ public class Player : Human
     public List<Sprite> LowerAnimLeft;
     public List<Sprite> UpperAnimRight;
     public List<Sprite> UpperAnimLeft;
-	public List<Sprite> AnimationSautDroite;
-	public List<Sprite> AnimationSautGauche;
+	public List<Sprite> JumpAnimRight;
+	public List<Sprite> JumpAnimLeft;
 
 	public void OnCollisionEnter2D(Collision2D collision)
     {	
-		if (collision.contacts [0].normal.x == 0) {
-						OnGround = true;
+		OnGround = true;
+		foreach (ContactPoint2D contact in collision.contacts) {
+						if (contact.normal.x != 0) {
+								OnGround = false;
+						}
 				}
 				
 	}
 
 	public void OnCollisionExit2D(Collision2D collision)
-    {		
-		if (collision.contacts [0].normal.x == 0) {
-						OnGround = false;
-				}
+    {	
+		OnGround = false;
+		foreach (ContactPoint2D contact in collision.contacts) {
+			if (contact.normal.x != 0) {
+				OnGround = true;
+			}
+		}
 	}
+
+//	void Start(){
+//
+//		}
+//
+//	void Update() {
+//		if (Physics.Raycast (transform.position + new Vector3(0,-1,0), -Vector3.up, 0.1f))
+//						OnGround = true;
+//				else
+//						OnGround = false;
+//	}
 
     public void EquipWeapon(Weapon weapon)
     {
