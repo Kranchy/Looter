@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 guid: 46abe47c15afde84c849e4c0832dcbf0
 TextureImporter:
+<<<<<<< HEAD
+  fileIDToRecycleName: {}
+=======
+>>>>>>> b6780ff81aaac36331b0515528e5e7f595cd8704
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +39,13 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+<<<<<<< HEAD
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+=======
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
@@ -43,6 +54,7 @@ TextureImporter:
     maxTextureSize: 1024
     textureFormat: -2
     compressionQuality: 50
+>>>>>>> b6780ff81aaac36331b0515528e5e7f595cd8704
   spriteSheet:
     sprites: []
   spritePackingTag: 
