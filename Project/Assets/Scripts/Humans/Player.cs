@@ -46,6 +46,7 @@ public class Player : Human
 				if (collision.contacts [0].normal.x == 0) {
 						OnGround = false;
 				}
+<<<<<<< HEAD
 		}
 
 
@@ -88,5 +89,8 @@ public class Player : Human
 		}
 
 
+=======
+	}
+>>>>>>> 195c33578a87247d23b999b2bfb4d41800e993de
 }
 
