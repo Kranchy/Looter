@@ -14,10 +14,6 @@ public class AnimationManager : MonoBehaviour
     public int LowerAnimIndex { get; set; }
     public int UpperAnimIndex { get; set; }
 
-    public Weapon Weapon { get; set; }
-    public Util Util { get; set; }
-    public Passive Passive { get; set; }
-
 	// Use this for initialization
 	void Start ()
     {
@@ -29,6 +25,10 @@ public class AnimationManager : MonoBehaviour
 
         LowerRenderer.sprite = Player.LowerAnimRight[0];
         UpperRenderer.sprite = Player.UpperAnimRight[0];
+
+        GameObject go = (GameObject)Instantiate(Resources.Load("Prefabs/Items/Sword"));
+        Sword sword = go.GetComponent("Sword") as Sword;
+        Player.Weapon = sword;
 	}
 	
 	// Update is called once per frame
@@ -53,7 +53,8 @@ public class AnimationManager : MonoBehaviour
         {
             LowerAnimCount = Player.LowerAnimRight.Count;
 
-            if (Player.UsingWeapon) UpperAnimCount = Weapon.UsageAnimRight.Count;
+            if (Player.UsingWeapon) UpperAnimCount = Player.Weapon.UsageAnimRight.Count;
+            else if (Player.UsingUtil) UpperAnimCount = Player.Util.UsageAnimRight.Count;
             else UpperAnimCount = LowerAnimCount;
 
             UpdateLowerAnim();
@@ -66,7 +67,8 @@ public class AnimationManager : MonoBehaviour
         {
             LowerAnimCount = Player.LowerAnimLeft.Count;
 
-            if (Player.UsingWeapon) UpperAnimCount = Weapon.UsageAnimLeft.Count;
+            if (Player.UsingWeapon) UpperAnimCount = Player.Weapon.UsageAnimRight.Count;
+            else if (Player.UsingUtil) UpperAnimCount = Player.Util.UsageAnimRight.Count;
             else UpperAnimCount = LowerAnimCount;
 
             UpdateLowerAnim();
@@ -79,7 +81,8 @@ public class AnimationManager : MonoBehaviour
         {
             LowerAnimCount = Player.JumpAnimRight.Count;
 
-            if (Player.UsingWeapon) UpperAnimCount = Weapon.UsageAnimRight.Count;
+            if (Player.UsingWeapon) UpperAnimCount = Player.Weapon.UsageAnimRight.Count;
+            else if (Player.UsingUtil) UpperAnimCount = Player.Util.UsageAnimRight.Count;
             else UpperAnimCount = LowerAnimCount;
 
             UpdateLowerAnim();
@@ -92,7 +95,8 @@ public class AnimationManager : MonoBehaviour
         {
             LowerAnimCount = Player.JumpAnimLeft.Count;
 
-            if (Player.UsingWeapon) UpperAnimCount = Weapon.UsageAnimLeft.Count;
+            if (Player.UsingWeapon) UpperAnimCount = Player.Weapon.UsageAnimRight.Count;
+            else if (Player.UsingUtil) UpperAnimCount = Player.Util.UsageAnimRight.Count;
             else UpperAnimCount = LowerAnimCount;
 
             UpdateLowerAnim();
@@ -103,18 +107,34 @@ public class AnimationManager : MonoBehaviour
 
         if (command == InputManager.Command.Use_Weapon_Right)
         {
-            UpperAnimCount = Weapon.UsageAnimRight.Count;
+            UpperAnimCount = Player.Weapon.UsageAnimRight.Count;
 
-            UpdateUpperAnim();
+            UpperAnimIndex = 0;
             AnimWeaponRight();
         }
 
         if (command == InputManager.Command.Use_Weapon_Left)
         {
-            UpperAnimCount = Weapon.UsageAnimLeft.Count;
+            UpperAnimCount = Player.Weapon.UsageAnimLeft.Count;
 
-            UpdateUpperAnim();
+            UpperAnimIndex = 0;
             AnimWeaponLeft();
+        }
+
+        if (command == InputManager.Command.Use_Util_Right)
+        {
+            UpperAnimCount = Player.Util.UsageAnimRight.Count;
+
+            UpperAnimIndex = 0;
+            AnimUtilRight();
+        }
+
+        if (command == InputManager.Command.Use_Util_Left)
+        {
+            UpperAnimCount = Player.Util.UsageAnimLeft.Count;
+
+            UpperAnimIndex = 0;
+            AnimUtilLeft();
         }
     }
 
@@ -133,6 +153,7 @@ public class AnimationManager : MonoBehaviour
         LowerRenderer.sprite = Player.LowerAnimRight[LowerAnimIndex];
 
         if (Player.UsingWeapon) AnimWeaponRight();
+        else if (Player.UsingUtil) AnimUtilRight();
         else UpperRenderer.sprite = Player.UpperAnimRight[UpperAnimIndex];
     }
 
@@ -141,6 +162,7 @@ public class AnimationManager : MonoBehaviour
         LowerRenderer.sprite = Player.LowerAnimLeft[LowerAnimIndex];
 
         if (Player.UsingWeapon) AnimWeaponLeft();
+        else if (Player.UsingUtil) AnimUtilLeft();
         else UpperRenderer.sprite = Player.UpperAnimLeft[UpperAnimIndex];
     }
 
@@ -149,6 +171,7 @@ public class AnimationManager : MonoBehaviour
         LowerRenderer.sprite = Player.JumpAnimRight[LowerAnimIndex];
 
         if (Player.UsingWeapon) AnimWeaponRight();
+        else if (Player.UsingUtil) AnimUtilRight();
         else UpperRenderer.sprite = null;
     }
 
@@ -157,20 +180,35 @@ public class AnimationManager : MonoBehaviour
         LowerRenderer.sprite = Player.JumpAnimLeft[LowerAnimIndex];
 
         if (Player.UsingWeapon) AnimWeaponLeft();
+        else if (Player.UsingUtil) AnimUtilLeft();
         else UpperRenderer.sprite = null;
     }
 
     private void AnimWeaponRight()
     {
-        UpperRenderer.sprite = Weapon.UsageAnimRight[UpperAnimIndex];
+        UpperRenderer.sprite = Player.Weapon.UsageAnimRight[UpperAnimIndex];
         if (UpperAnimIndex == UpperAnimCount - 1)
             Player.UsingWeapon = false;
     }
 
     private void AnimWeaponLeft()
     {
-        UpperRenderer.sprite = Weapon.UsageAnimLeft[UpperAnimIndex];
+        UpperRenderer.sprite = Player.Weapon.UsageAnimLeft[UpperAnimIndex];
         if (UpperAnimIndex == UpperAnimCount - 1)
             Player.UsingWeapon = false;
+    }
+
+    private void AnimUtilRight()
+    {
+        UpperRenderer.sprite = Player.Util.UsageAnimRight[UpperAnimIndex];
+        if (UpperAnimIndex == UpperAnimCount - 1)
+            Player.UsingUtil = false;
+    }
+
+    private void AnimUtilLeft()
+    {
+        UpperRenderer.sprite = Player.Util.UsageAnimLeft[UpperAnimIndex];
+        if (UpperAnimIndex == UpperAnimCount - 1)
+            Player.UsingUtil = false;
     }
 }
