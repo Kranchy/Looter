@@ -29,6 +29,10 @@ public class AnimationManager : MonoBehaviour
 
         LowerRenderer.sprite = Player.LowerAnimRight[0];
         UpperRenderer.sprite = Player.UpperAnimRight[0];
+
+        GameObject go = (GameObject)Instantiate(Resources.Load("Prefabs/Items/Sword"));
+        Sword sword = go.GetComponent("Sword") as Sword;
+        Weapon = sword;
 	}
 	
 	// Update is called once per frame
@@ -105,7 +109,7 @@ public class AnimationManager : MonoBehaviour
         {
             UpperAnimCount = Weapon.UsageAnimRight.Count;
 
-            UpdateUpperAnim();
+            UpperAnimIndex = 0;
             AnimWeaponRight();
         }
 
@@ -113,7 +117,7 @@ public class AnimationManager : MonoBehaviour
         {
             UpperAnimCount = Weapon.UsageAnimLeft.Count;
 
-            UpdateUpperAnim();
+            UpperAnimIndex = 0;
             AnimWeaponLeft();
         }
     }
