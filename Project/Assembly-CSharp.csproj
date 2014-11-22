@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\Managers\CameraManager.cs" />
      <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Managers\ItemCreator.cs" />
      <Compile Include="Assets\Scripts\Managers\ItemMenu.cs" />
      <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
      <Compile Include="Assets\Scripts\Obstacles\Obstacle.cs" />
@@ -78,6 +79,7 @@
      <None Include="Assets\Tiled2Unity\Imported\map2.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+     <None Include="Assets\Tiled2Unity\Imported\map8.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\map4.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\map5.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
