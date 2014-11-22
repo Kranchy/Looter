@@ -7,9 +7,12 @@ public class InputManager : MonoBehaviour {
 	Rigidbody2D rb;
 	int jumpTime;
 	Vector3 movement;
+	public ItemMenu im;
 
 	SpriteRenderer sr;
 	int currentAnim = 0;
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -21,33 +24,35 @@ public class InputManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey("q")){
-			gameObject.transform.Translate(new Vector3(-player.Speed,0,0));
-		}
-		if (Input.GetKey("d")){
+
+		// Capture des mouvements
+
+		if (Input.GetAxis ("Horizontal") < -0) {
+						gameObject.transform.Translate (new Vector3 (-player.Speed, 0, 0));
+						if (player.OnGround) {
+								if (currentAnim == player.AnimationGauche.Count) {
+										currentAnim = 0;
+								} else {
+										currentAnim ++;
+								}
+								sr.sprite = player.AnimationGauche [currentAnim];
+
+						}
+				}
+		if (Input.GetAxis("Horizontal") > 0){
 			gameObject.transform.Translate(new Vector3(player.Speed,0,0));
-
-			if (currentAnim == player.AnimationGauche.Count ){
-				currentAnim = 0;
+			if(player.OnGround){
+				if (currentAnim == player.AnimationDroite.Count ){
+					currentAnim = 0;
+				}
+				else{
+					currentAnim ++;
+				}
+				sr.sprite = player.AnimationDroite [currentAnim];
 			}
-			else{
-				currentAnim ++;
-			}
-			sr.sprite = player.AnimationGauche [currentAnim];
-
-		}
-		if (Input.GetKey("d")){
-			gameObject.transform.Translate(new Vector3(player.Speed,0,0));
-			if (currentAnim == player.AnimationDroite.Count ){
-				currentAnim = 0;
-			}
-			else{
-				currentAnim ++;
-			}
-			sr.sprite = player.AnimationDroite [currentAnim];
 
 		}
-		if (Input.GetKeyDown(KeyCode.Space)){
+		if (Input.GetAxis("Jump")>0){
 
 			if (player.Booted || player.OnGround){
 
@@ -58,6 +63,18 @@ public class InputManager : MonoBehaviour {
 			rb.AddForce (Vector3.up * 100);
 			jumpTime -= 1;
 		}
+
+		//Capture des actions
+
+		if (Input.GetAxis ("Weapon") > 0) {
+			if (Input.GetAxis ("ItemMenu") > 0){
+				im.OpenWeaponMenu();
+			}
+			else{
+
+			}
+				}
+
 
 
 	}
