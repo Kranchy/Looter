@@ -17,6 +17,8 @@ public class Player : Human
 
 	public List<Sprite> AnimationDroite;
 	public List<Sprite> AnimationGauche;
+	public List<Sprite> AnimationSautDroite;
+	public List<Sprite> AnimationSautGauche;
 
 	public void OnCollisionEnter2D(Collision2D collider)
     {	
