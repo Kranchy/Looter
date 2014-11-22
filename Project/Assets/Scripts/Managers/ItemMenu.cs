@@ -18,6 +18,11 @@ public class ItemMenu : MonoBehaviour
 		void Start ()
 		{
 				lastTime = Time.time;
+
+		Player.Weapon = Inventory.Weapons [0];
+		Player.Util = Inventory.Utils [0];
+		Player.Passive = Inventory.Passives [0];
+
 		}
 
 		void OnGUI ()
@@ -36,7 +41,7 @@ public class ItemMenu : MonoBehaviour
 						}
 				} else {
 						GUI.Box (new Rect (Screen.width - 200, 10, 40, 40), Selected);
-						//GUI.Button (new Rect (Screen.width - 200, 10 + 40 * i, 40, 40), Player.Util.Icon);
+						GUI.Button (new Rect (Screen.width - 200, 10, 40, 40), Player.Util.Icon);
 				}
 
 				if (printPassiveMenu) {
@@ -50,7 +55,7 @@ public class ItemMenu : MonoBehaviour
 						}
 				} else {
 						GUI.Box (new Rect (Screen.width - 150, 10, 40, 40), Selected);
-						//GUI.Button (new Rect (Screen.width - 150, 10 + 40 * i, 40, 40), Player.Passive.Icon);
+						GUI.Button (new Rect (Screen.width - 150, 10, 40, 40), Player.Passive.Icon);
 				}
 
 				if (printWeaponMenu) {
@@ -64,7 +69,7 @@ public class ItemMenu : MonoBehaviour
 						}
 				} else {
 						GUI.Box (new Rect (Screen.width - 100, 10, 40, 40), Selected);
-			//GUI.Button (new Rect (Screen.width - 100, 10 + 40 * i, 40, 40), Player);
+						GUI.Button (new Rect (Screen.width - 100, 10, 40, 40), Player.Weapon.Icon);
 				}
 
 		}
@@ -101,7 +106,7 @@ public class ItemMenu : MonoBehaviour
 				if (Time.time >= lastTime + 0.1) {
 						if (printWeaponMenu) {
 								if (Input.GetAxis ("Weapon") > 0) {
-					Player.EquipWeapon (Inventory.Weapons[selectedItem]);
+					Player.Weapon = Inventory.Weapons[selectedItem];
 										printWeaponMenu = false;
 								}
 								if (Input.GetAxisRaw ("ItemNext") > 0) {
