@@ -10,6 +10,7 @@ public class Player : Human
     public float SwimmingSpeed;
 
 	public bool OnGround;
+    public bool UsingWeapon;
 
     public bool Armored;
     public bool Shielded;
@@ -52,9 +53,11 @@ public class Player : Human
         Passive = passive;
     }
 
-    public void UseWeapon()
+    public void UseWeapon(SpriteRenderer spriteRenderer)
     {
-        Weapon.Use();
+        UsingWeapon = true;
+        Weapon.Animate(spriteRenderer);
+        UsingWeapon = false;
     }
 
     public void UseUtil()

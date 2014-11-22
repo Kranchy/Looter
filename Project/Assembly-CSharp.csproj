@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Items\Weapons\Bow.cs" />
      <Compile Include="Assets\Scripts\Items\Weapons\Sword.cs" />
      <Compile Include="Assets\Scripts\Items\Weapons\ThrowingKnife.cs" />
+     <Compile Include="Assets\Scripts\Managers\AnimationManager.cs" />
      <Compile Include="Assets\Scripts\Managers\CameraManager.cs" />
      <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Inventory.cs" />

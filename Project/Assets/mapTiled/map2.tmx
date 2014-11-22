@@ -311,7 +311,7 @@
  </layer>
  <layer name="eau" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIHANiC8B8XUamUttQKm519D4l9DwYAbobh8qgFZpgdaAGmkNOW0h5zFahQcl6fgkFkxNcAoLpiY4jQXjAgBBHyCD
+   eJxjYBgFo2AUjIJRAAMnsWBqglNYMDXBaSwYFwAAHPIL1w==
   </data>
  </layer>
  <layer name="terrain" width="24" height="16">
@@ -321,7 +321,7 @@
  </layer>
  <layer name="deco" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMBIBAAYAAAE=
+   eJxjYBgFIHANiC8B8XUamUttQKm519D4l9DwYAbobh8qgFZpgdaAVHej5yGYfhhGlqdVeAyFdDwYAACRsBWE
   </data>
  </layer>
  <layer name="terre" width="24" height="16">
