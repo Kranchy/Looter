@@ -15,10 +15,10 @@ public class InputManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey("q")){
-			gameObject.transform.Translate(new Vector3(-player.speed,0,0));
+			gameObject.transform.Translate(new Vector3(-player.Speed,0,0));
 		}
 		if (Input.GetKey("d")){
-			gameObject.transform.Translate(new Vector3(player.speed,0,0));
+			gameObject.transform.Translate(new Vector3(player.Speed,0,0));
 		}
 		if (Input.GetKeyDown(KeyCode.Space)){
 			if (/*player.passive.name == "boots" ||*/ player.OnGround){

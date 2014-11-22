@@ -16,12 +16,12 @@ public class Boots : Passive {
 
     public override void OnEquip(Player player)
     {
-        throw new System.NotImplementedException();
+        player.Booted = true;
     }
 
     public override void OnUnequip(Player player)
     {
-        throw new System.NotImplementedException();
+        player.Booted = false;
     }
 
     void Start()

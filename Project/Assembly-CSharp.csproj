@@ -49,21 +49,22 @@
      <Compile Include="Assets\Scripts\Humans\Enemy.cs" />
      <Compile Include="Assets\Scripts\Humans\Human.cs" />
      <Compile Include="Assets\Scripts\Humans\Player.cs" />
-     <Compile Include="Assets\Scripts\InputManager.cs" />
-     <Compile Include="Assets\Scripts\Items\Item.cs" />
-     <Compile Include="Assets\Scripts\Items\Passive.cs" />
+     <Compile Include="Assets\Scripts\Items\Inherited\Item.cs" />
+     <Compile Include="Assets\Scripts\Items\Inherited\Passive.cs" />
+     <Compile Include="Assets\Scripts\Items\Inherited\Util.cs" />
+     <Compile Include="Assets\Scripts\Items\Inherited\Weapon.cs" />
      <Compile Include="Assets\Scripts\Items\Passives\Armor.cs" />
      <Compile Include="Assets\Scripts\Items\Passives\Boots.cs" />
      <Compile Include="Assets\Scripts\Items\Passives\Flippers.cs" />
-     <Compile Include="Assets\Scripts\Items\Util.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Hookshot.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Shield.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Shovel.cs" />
-     <Compile Include="Assets\Scripts\Items\Weapon.cs" />
      <Compile Include="Assets\Scripts\Items\Weapons\Bomb.cs" />
      <Compile Include="Assets\Scripts\Items\Weapons\Bow.cs" />
      <Compile Include="Assets\Scripts\Items\Weapons\Sword.cs" />
      <Compile Include="Assets\Scripts\Items\Weapons\ThrowingKnife.cs" />
+     <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\Inventory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

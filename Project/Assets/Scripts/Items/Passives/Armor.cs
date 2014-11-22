@@ -16,12 +16,14 @@ public class Armor : Passive {
 
     public override void OnEquip(Player player)
     {
-        throw new System.NotImplementedException();
+        player.Armored = true;
+        player.Speed *= 0.5f;
     }
 
     public override void OnUnequip(Player player)
     {
-        throw new System.NotImplementedException();
+        player.Armored = false;
+        player.Speed *= 2;
     }
 
     void Start ()
