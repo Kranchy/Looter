@@ -66,16 +66,15 @@ public class InputManager : MonoBehaviour {
 
 		//Capture des actions
 
-		if (Input.GetAxis ("Weapon") > 0) {
-			if (Input.GetAxis ("ItemMenu") > 0){
+		if (Input.GetAxis ("Weapon") > 0)
+        {
+			if (Input.GetAxis ("ItemMenu") > 0)
+            {
 				im.OpenWeaponMenu();
 			}
-			else{
-
+			else
+            {
 			}
-				}
-
-
-
+		}
 	}
 }

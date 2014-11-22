@@ -62,7 +62,7 @@ public class ItemMenu : MonoBehaviour {
 										}
 								}
 						}
-			lastTime = Time.time;
+			        lastTime = Time.time;
 				}
 		}
 }
