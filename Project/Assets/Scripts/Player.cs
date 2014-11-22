@@ -1,9 +1,16 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class Player : Human {
 
-	int health;
-	float speed;
+	Weapon weapon;
+	Util util;
+	Passive passif;
+
+	List<Weapon> weaponInventory;
+	List<Util> utilInventory;
+	List<Passive> passiveInventory;
+
+	bool onGround;
 
 }
