@@ -13,11 +13,25 @@ public class InputManager : MonoBehaviour
 	Vector3 Movement;
 	int CurrentAnim = 0;
 
+    public enum Command
+    {
+        Walk_Right = 0,
+        Walk_Left = 1,
+        Jump_Right = 2,
+        Jump_Left = 3,
+        Use_Weapon_Right = 4,
+        Use_Weapon_Left = 5,
+        Use_Util_Right = 6,
+        Use_Util_Left = 7
+    }
+
+    public delegate void NewCommandHandler(Command command);
+
+    public static event NewCommandHandler OnNewCommand;
+
 	// Use this for initialization
 	void Start ()
 	{
-        LowerRenderer.sprite = Player.LowerAnimRight[0];
-        UpperRenderer.sprite = Player.UpperAnimRight[0];
     }
 	
 	// Update is called once per frame
@@ -78,7 +92,7 @@ public class InputManager : MonoBehaviour
 				} else {
 					CurrentAnim ++;
 				}
-				LowerRenderer.sprite = Player.AnimationSautDroite [CurrentAnim];
+				LowerRenderer.sprite = Player.AnimationSautDroite[CurrentAnim];
 			}
         }
         if (Input.GetAxis ("Jump") > 0)
@@ -100,10 +114,11 @@ public class InputManager : MonoBehaviour
         {
             if (Input.GetAxis ("ItemMenu") > 0)
             {
-                ItemMenu.OpenWeaponMenu ();
+                ItemMenu.OpenWeaponMenu();
             }
             else
             {
+                Player.UseWeapon(UpperRenderer);
             }
         }
         
@@ -111,7 +126,7 @@ public class InputManager : MonoBehaviour
         {
             if (Input.GetAxis ("ItemMenu") > 0)
             {
-                ItemMenu.OpenUtilMenu ();
+                ItemMenu.OpenUtilMenu();
             }
             else
             {

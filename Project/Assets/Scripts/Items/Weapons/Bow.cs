@@ -25,7 +25,7 @@ public class Bow : Weapon
 
     }
 
-    public override void Use()
+    public override void Animate(SpriteRenderer spriteRenderer)
     {
         throw new System.NotImplementedException();
     }
