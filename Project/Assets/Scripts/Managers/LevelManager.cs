@@ -17,10 +17,12 @@ public class LevelManager : MonoBehaviour {
 
 		}
 
-		for (i = 0; i <10; i++) {
-			Instantiate(Resources.Load ("Prefabs/Levels/map" + levels[i]),new Vector3(24*(i-1),0,0),transform.rotation);
-			Instantiate(Resources.Load ("Prefabs/Levels/underground"),new Vector3(24*(i-1),-16,0),transform.rotation);
+		for (i = 0; i <5; i++) {
+			Instantiate(Resources.Load ("Prefabs/Levels/map" + levels[i]),new Vector3(48 + 24*(i-1),0,0),transform.rotation);
 				}
+		for (i = 5; i <10; i++) {
+			Instantiate(Resources.Load ("Prefabs/Levels/map" + levels[i]),new Vector3(72 + 24*(i-1),0,0),transform.rotation);
+		}
 		//Instantiate(Resources.Load ("Prefabs/Characters/Player"),new Vector3(2,-11,-10),transform.rotation);
 
 	}
