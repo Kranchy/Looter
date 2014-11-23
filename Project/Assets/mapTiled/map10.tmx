@@ -321,12 +321,34 @@
  </layer>
  <layer name="terrain" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJzVVF0LwyAMlLYbtPugcw/9+P8/tAm7AwkuiqMPOzhajV40nobwP+iEvfBykv4ovAnfjbk7E+ecgO9T+BI+hIMZy9z3wvrS+Aw9i4j+dB+LcBXujv5i4iN0rpi7on+r0CJsTVLMWKu35xJ0jbnzon6ppiXYmlj96OTPwfORxlJfqP4UPn6p9bx3ztbf2o7I8UuNvuXW9gbWeOUMaD1b3wye1ZBhD2rtWj3G+0VGaFGT//Yu14LvwwRt6jOX3usDO3EGAw==
+   eJzVVF0LwyAQk7YbtPugsw9t9/9/6C4sATmcSqEPC4R+nJfTMxrC/6Az9sbLSfqj8WZcDtbuXFw5gc+n8WV8GAc3VrXvlfml8Zl6HpH/03Wsxs34LuivLj5S58rcjf/3Bi3B9yTFzLmW1lwD5pjbL+nXelqD74nXj4X6OZR8hFjqC+hP4euXFs8jHx7DfuXm7P2N78gaLT1CL/Yf2oqnvtD4Us7ZQD+P3hnaqyHDnkTvjnpM50uM1JKm3v1ZboXuh4na0lct+OQDiyUGNA==
+  </data>
+ </layer>
+ <objectgroup name="enemySpawn">
+  <object name="spawn1" x="956" y="496" width="67" height="120">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn2" x="1070" y="27" width="68" height="110">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn3" x="576" y="45" width="42" height="93">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="deco2" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg+4BwB+bMUmH0BiC9DaWoAdLNg/MtUMh/drAtoNKUAm/uRaUoBLvdTC+Bz50UyzLtKonps/qFm/GMzh5rpd6DcTyw4QyV3DHcAADsSHW4=
   </data>
  </layer>
  <layer name="deco" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAeuAbEl4D4OhXNpKbd19DkYXoYkGgGJP5A+IPeAD1MRjrAl47wyY2GIXngEgP5eQ0WH/jwKMAPABkUHDI=
+   eJxjYKAeuAbEl4D4OhXNpKbd19DkYXoYkGgGJP5A+IPeAD1MRjrAl47wyREThtcocNdwBZcYyM9rsPjAh0cBfgAAQOodCA==
   </data>
  </layer>
  <layer name="terre" width="24" height="16">

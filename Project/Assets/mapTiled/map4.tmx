@@ -324,6 +324,26 @@
    eJy9VO0KwjAMDE4nW1W27ocfryH6/o9mDhOWjXZbW/Hg6EfoNSTXEq1jx6yYe2FoftigE0PH7JmO6YX9bH4uuAf6rdFyZu3NHOOQoX9l3oT3ALF/LNDfmgPueiSeQ29L+7eEhr61Rf8qGv1CNPWQMjUP9Y72thUCzuxp/JSgjdpcRKemaY/JrG3fU+rfSV514rmlfG0Ncz0Rw5P5Yr5/pPcP5HgKWHsXGoc3Qm9a47H/UX0b+w80Du+GPNvQ6G8f0NHz+u7mOWj8A86qB1U=
   </data>
  </layer>
+<<<<<<< HEAD
+=======
+ <objectgroup name="enemySpawn">
+  <object name="spawn1" x="203" y="372" width="72" height="105">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn2" x="746" y="518" width="62" height="99">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="deco2" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowA/OENFsy4QkL9MofmE9BOyn5BZ1HQ/NrModf8FJDMoDUts4DKSG0gJS2IBLcwkBM4OgJ2DBQAAcSIPgg==
+  </data>
+ </layer>
+>>>>>>> 4e64d09facec0dae5db5efff0b6c77442fee70e7
  <layer name="deco" width="24" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYKAeuATE16lo3ihgYLjGQL9wvQTF2MRg4oMpfq8NtANIBPSMy6ECyA0PQmEJkyekH4YHMk4G0g0Agm8Y3Q==

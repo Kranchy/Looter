@@ -13,6 +13,7 @@ public class AnimationManager : MonoBehaviour
     public int UpperAnimCount { get; set; }
     public int LowerAnimIndex { get; set; }
     public int UpperAnimIndex { get; set; }
+	public AudioClip Soundwalk;
 
 	// Use this for initialization
 	void Start ()
@@ -63,7 +64,9 @@ public class AnimationManager : MonoBehaviour
         if (command == InputManager.Command.Walk_Right)
         {
             LowerAnimCount = Player.LowerAnimRight.Count;
-
+			
+			audio.PlayOneShot(Soundwalk);
+			
             if (Player.UsingWeapon) UpperAnimCount = Player.Weapon.UsageAnimRight.Count;
             else if (Player.UsingUtil) UpperAnimCount = Player.Util.UsageAnimRight.Count;
             else UpperAnimCount = LowerAnimCount;

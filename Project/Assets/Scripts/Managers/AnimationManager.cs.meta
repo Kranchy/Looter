@@ -2,7 +2,16 @@ fileFormatVersion: 2
 guid: fb34392bdde58db49beca05a66738793
 MonoImporter:
   serializedVersion: 2
+<<<<<<< HEAD
   defaultReferences: []
+=======
+  defaultReferences:
+  - InputManager: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - UpperRenderer: {instanceID: 0}
+  - LowerRenderer: {instanceID: 0}
+  - Soundwalk: {fileID: 8300000, guid: e1d07c0c40317a24dad1c44434d04c89, type: 3}
+>>>>>>> 4e64d09facec0dae5db5efff0b6c77442fee70e7
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
