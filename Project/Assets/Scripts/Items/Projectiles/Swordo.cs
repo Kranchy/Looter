@@ -10,7 +10,7 @@ public class Swordo : MonoBehaviour
     // Use this for initialization
 	void Start ()
     {
-        Destroy(gameObject, 1);
+        Destroy(gameObject, 0.1f);
 	}
 	
 	// Update is called once per frame
