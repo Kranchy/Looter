@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\IA\SasIA.cs" />
      <Compile Include="Assets\Scripts\Items\Inherited\Item.cs" />
      <Compile Include="Assets\Scripts\Items\Inherited\Passive.cs" />
+     <Compile Include="Assets\Scripts\Items\Inherited\Projectile.cs" />
      <Compile Include="Assets\Scripts\Items\Inherited\Util.cs" />
      <Compile Include="Assets\Scripts\Items\Inherited\Weapon.cs" />
      <Compile Include="Assets\Scripts\Items\Passives\Armor.cs" />
@@ -61,7 +62,6 @@
      <Compile Include="Assets\Scripts\Items\Projectiles\Arrow.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Bombo2.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Knife.cs" />
-     <Compile Include="Assets\Scripts\Items\Projectiles\Projectile.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Shovelo.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Swordo.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Hookshot.cs" />
@@ -84,6 +84,7 @@
      <Compile Include="Assets\Scripts\Obstacles\Obstacle.cs" />
      <Compile Include="Assets\Scripts\Obstacles\Sand.cs" />
      <Compile Include="Assets\Scripts\Obstacles\WallD.cs" />
+     <Compile Include="Assets\Scripts\Start\Select.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />

@@ -20,15 +20,25 @@ public class HealthManager : MonoBehaviour {
 			(gameObject.GetComponent ("Human") as Human).HP = 0;
 
 				}
+		if ((gameObject.GetComponent ("Human") as Human).transform.position.x >= 300) {
+
+			Application.LoadLevel ("StartingScreen");
+
+				}
+
+
 	}
+
+
 
 	void OnTriggerEnter2D(Collider2D collider){
 
-				if (Time.time > tookDmgTime + 2) {
-
+				if ((Time.time > tookDmgTime + 2) && !(collider.GetComponent ("Projectiles") as Projectile).isAlly) {
+				
 						(gameObject.GetComponent ("Human") as Human).HP --;
-
+				
 				}
 		}
+
 
 }

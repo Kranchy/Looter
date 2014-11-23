@@ -277,18 +277,12 @@ public class ItemMenu : MonoBehaviour
 //						Inventory.Passives[selectedSasItemx] = null;
 //						
 //					}
-<<<<<<< HEAD
 
-                        }
-                }
-        }
-=======
-//				}
 
-								
 
 						}
 				}
+        
+
 		}
->>>>>>> b127c43f160e7233e9ec216d31201f280d22af49
 }
