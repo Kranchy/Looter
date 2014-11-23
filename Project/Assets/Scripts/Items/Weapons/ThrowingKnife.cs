@@ -22,4 +22,8 @@ public class ThrowingKnife : Weapon
 	void Update ()
     {
     }
+
+	public override void Effect(int side){
+		
+	}
 }

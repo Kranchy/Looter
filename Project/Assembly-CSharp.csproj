@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Items\Passives\Armor.cs" />
      <Compile Include="Assets\Scripts\Items\Passives\Boots.cs" />
      <Compile Include="Assets\Scripts\Items\Passives\Flippers.cs" />
+     <Compile Include="Assets\Scripts\Items\Projectiles\Arrow.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Hookshot.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Shield.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Shovel.cs" />

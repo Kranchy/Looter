@@ -26,9 +26,6 @@ public class AnimationManager : MonoBehaviour
         LowerRenderer.sprite = Player.LowerAnimRight[0];
         UpperRenderer.sprite = Player.UpperAnimRight[0];
 
-        GameObject go = (GameObject)Instantiate(Resources.Load("Prefabs/Items/Sword"));
-        Sword sword = go.GetComponent("Sword") as Sword;
-        Player.Weapon = sword;
 	}
 	
 	// Update is called once per frame
@@ -128,6 +125,7 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
+			Player.Weapon.Effect (0);
         }
 
         if (command == InputManager.Command.Use_Weapon_Left)
@@ -139,6 +137,7 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
+			Player.Weapon.Effect (1);
         }
 
         if (command == InputManager.Command.Use_Util_Right)

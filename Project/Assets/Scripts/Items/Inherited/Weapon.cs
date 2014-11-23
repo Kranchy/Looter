@@ -13,9 +13,13 @@ public abstract class Weapon : Item
 	void Start () {
 	
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 	
 	}
+
+	public abstract void Effect(int side);
+
+
 }

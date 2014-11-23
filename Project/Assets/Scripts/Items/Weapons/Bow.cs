@@ -23,4 +23,12 @@ public class Bow : Weapon
 	void Update () {
 
     }
+
+	public override void Effect (int side){
+		if (side == 0) {
+						Instantiate (Resources.Load ("Prefabs/Projectiles/fleche"),transform.position,transform.rotation);
+				} else {
+						Instantiate (Resources.Load ("Prefabs/Projectiles/flecheright"),transform.position,transform.rotation);
+				}
+	}
 }

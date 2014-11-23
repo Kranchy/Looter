@@ -23,4 +23,8 @@ public class Bomb : Weapon
 	void Update () {
 
     }
+
+	public override void Effect(int side){
+
+		}
 }
