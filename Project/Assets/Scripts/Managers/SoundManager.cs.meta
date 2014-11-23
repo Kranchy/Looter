@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 89fe1ef3137bf7f4cb9a8298c825b1d1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - InputManager: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - WalkSound: {fileID: 8300000, guid: ea1f97fe644cf274991ae2e71c4adcb1, type: 3}
+  - JumpSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

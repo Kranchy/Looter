@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 public class Player : Human
 {
-	
 	public Weapon Weapon { get; set; }
 	public Util Util { get; set; }
 	public Passive Passive { get; set; }

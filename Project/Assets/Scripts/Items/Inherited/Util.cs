@@ -9,6 +9,8 @@ public abstract class Util : Item
     public List<Sprite> UsageAnimRight;
     public List<Sprite> UsageAnimLeft;
 
+    public AudioClip UsageSound;
+
 	// Use this for initialization
 	void Start ()
     {
