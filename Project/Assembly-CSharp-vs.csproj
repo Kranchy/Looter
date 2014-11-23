@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Humans\Human.cs" />
      <Compile Include="Assets\Scripts\Humans\Player.cs" />
      <Compile Include="Assets\Scripts\IA\GuardIA.cs" />
+     <Compile Include="Assets\Scripts\IA\SasIA.cs" />
      <Compile Include="Assets\Scripts\Items\Inherited\Item.cs" />
      <Compile Include="Assets\Scripts\Items\Inherited\Passive.cs" />
      <Compile Include="Assets\Scripts\Items\Inherited\Util.cs" />
