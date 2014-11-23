@@ -160,6 +160,10 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingUtil = true;
             }
+			if(Time.time > useTime + 5){
+				Player.Util.Effect (0);
+				useTime = Time.time;
+			}
         }
 
         if (command == InputManager.Command.Use_Util_Left)
@@ -171,6 +175,10 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingUtil = true;
             }
+			if(Time.time > useTime + 5){
+				Player.Util.Effect (0);
+				useTime = Time.time;
+			}
         }
     }
 

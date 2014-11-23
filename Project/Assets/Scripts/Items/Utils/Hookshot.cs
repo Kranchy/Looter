@@ -22,4 +22,7 @@ public class Hookshot : Util
 	void Update ()
     {
     }
+
+	public override void Effect(int side){
+		}
 }
