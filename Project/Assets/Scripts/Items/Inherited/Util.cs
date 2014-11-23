@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public abstract class Util : Item
 {
+	public float Cd;
+
     public List<Sprite> UsageAnimRight;
     public List<Sprite> UsageAnimLeft;
 

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public abstract class Weapon : Item
 {
     public int Damage;
+	public float Cd;
 
     public List<Sprite> UsageAnimRight;
     public List<Sprite> UsageAnimLeft;
