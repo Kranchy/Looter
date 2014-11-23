@@ -9,6 +9,8 @@ public class AnimationManager : MonoBehaviour
     public SpriteRenderer UpperRenderer;
     public SpriteRenderer LowerRenderer;
 
+    public AudioClip WalkSound;
+
     public int LowerAnimCount { get; set; }
     public int UpperAnimCount { get; set; }
     public int LowerAnimIndex { get; set; }
@@ -74,6 +76,8 @@ public class AnimationManager : MonoBehaviour
             UpdateLowerAnim();
             if (!Player.UsingWeapon && !Player.UsingUtil) UpdateUpperAnim();
 
+            audio.PlayOneShot(WalkSound);
+
             AnimWalkRight();
         }
 
@@ -87,6 +91,8 @@ public class AnimationManager : MonoBehaviour
 
             UpdateLowerAnim();
             if (!Player.UsingWeapon && !Player.UsingUtil) UpdateUpperAnim();
+
+            audio.PlayOneShot(WalkSound);
 
             AnimWalkLeft();
         }
