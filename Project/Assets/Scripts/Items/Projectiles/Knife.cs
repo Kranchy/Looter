@@ -5,6 +5,8 @@ public class Knife : MonoBehaviour
 {
 	public float speed;
 
+    public bool IsAlly { get; set; }
+
     public int Damage { get; set; }
 
 	// Use this for initialization

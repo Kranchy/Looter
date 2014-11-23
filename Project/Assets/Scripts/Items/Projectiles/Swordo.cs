@@ -5,6 +5,8 @@ public class Swordo : MonoBehaviour
 {
     public float Speed { get; set; }
 
+    public bool IsAlly { get; set; }
+
     public int Damage { get; set; }
 
     // Use this for initialization

@@ -16,10 +16,15 @@ public class GuardIA : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if ((gameObject.GetComponent ("Enemy") as Enemy).OnGround && Time.time < (autoTurn + 4)) {
-						transform.Translate (new Vector3 ((gameObject.GetComponent ("Enemy") as Enemy).speed, 0, 0));
+		if ((gameObject.GetComponent ("Enemy") as Enemy).OnGround && Time.time < (autoTurn + 4))
+        {
+            transform.Translate (new Vector3 ((gameObject.GetComponent ("Enemy") as Enemy).speed, 0, 0));
 				if (goesRight){
 				//(gameObject.GetComponent ("SpriteRenderer") as SpriteRenderer).sprite = Resources.Load ("Sprite/AnimationGGroite/Garde" + steps) as Sprite;
+<<<<<<< HEAD
+=======
+				//Debug.Log (("Sprite/AnimationGGroite/Garde" + steps));
+>>>>>>> b127c43f160e7233e9ec216d31201f280d22af49
 				if (steps == 4) steps = 0;
 				else steps ++;
 				if (!goesRight){
@@ -28,13 +33,13 @@ public class GuardIA : MonoBehaviour {
 					else steps ++;
 				}
 			}
-		
-		
-		} else {
+		}
+        else
+        {
 			(gameObject.GetComponent ("Enemy") as Enemy).speed = -(gameObject.GetComponent ("Enemy") as Enemy).speed;
 						transform.Translate (new Vector3 (3*(gameObject.GetComponent ("Enemy") as Enemy).speed, 0, 0));
 			goesRight = !goesRight;
 			autoTurn = Time.time;
-				}
+        }
 	}
 }
