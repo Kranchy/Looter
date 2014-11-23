@@ -319,6 +319,41 @@
    eJzdU8sOwjAMq9hgWksrCoexHeH//5FEaiQT9cmRSNb6tJ10Meb/4kSYGpgJ5x/5N8KT8CbcCTaBxw7GjwGvOS+isxMW4BU9X7mrOY6GjxvhVdDr0WnFpjyshEvSY61oyvWq1agUnM8VtGs1YC8Ozvfy97yv6O9Kv5XTOsCfC/ZXy2nEvw72Hsz3vzGlPemtUNFuhbwH9pPt8JTra1nDvg+JV7gjaEVY83A3wJ4HLuHQfl1hjHPRQx8C7YfB/bJkeCPM8a7N7OOXz30A6q4IMQ==
   </data>
  </layer>
+ <objectgroup name="enemySpawn">
+  <properties>
+   <property name="Enemy" value="1"/>
+  </properties>
+  <object name="spawn1" x="23" y="92" width="59" height="96">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn2" x="351" y="319" width="72" height="105">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn3" x="403" y="1" width="63" height="90">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn4" x="876" y="126" width="68" height="108">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn5" x="916" y="463" width="77" height="108">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="deco2" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhc4CKVzLlMJXNwgQtEqrtKpvnEuv8yCW5BBsTquYDkFnxuIjfekN1Pjj8IAWLdT6kdyDStALXcf45K5tACkJtfRgF5AAAsKBLW
+  </data>
+ </layer>
  <layer name="deco" width="24" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYKA/uAbEl4jA1wfAbegA5lZy3UIvfwxkeFEaRoMRDGU/XUPjXyLApwdAzvPIYYot35MCyNEzChAAAF19H2g=

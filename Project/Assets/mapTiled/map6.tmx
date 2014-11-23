@@ -324,6 +324,28 @@
    eJzdlN0OgjAMhRuYGocYmRdOX8Of938029gTmmbglMQLl3wplPbQtAWi/z0N0yqBWS3U8vknJjM35s48Fuhvmd2XdbWF2kr6fUWc190zXUVtV/qsBxIvfcvKpTLvF8f3FPeBxn2a4l1/RUt6GhVSOyidEg3wi+1n3gNtiVvTax6kNhvOSjYW1xvN9/O2dafC89qDb8bO29Y9LNT3BzsMXfQXfZz6PzQzvmByMJekNhZ84Gi0DhrnfTYnGT1Yuxu4L/UM+t4nebIbmPMTIekIvQ==
   </data>
  </layer>
+ <objectgroup name="enemySpawn">
+  <object name="spawn1" x="448" y="14" width="65" height="79">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn2" x="720" y="539" width="68" height="83">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn3" x="806" y="99" width="58" height="90">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="deco2" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBge4BweuQtAfBlK0wLAzL5MI/MvoNHUBrRy90CBiwNs/9UBtn+4gLMD7YARAACXDAqe
+  </data>
+ </layer>
  <layer name="deco" width="24" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYBg4cA2ILyHh6xSaRYl+WgGYH4l1G7HqYOaORIDN75eIxITC9xoV3IfLHmqYjQsMVbPxpWF8cYctX6GXJyM1f5ACAOJ6JhE=

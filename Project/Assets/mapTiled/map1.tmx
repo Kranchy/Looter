@@ -340,9 +340,31 @@
    eJztks0KgzAQhIOtB42VRA/+vEah7/9ozsIWpsHginqRDnwYdpNh1sS5v+6oApQXegbQnOgneoMP+fcH/dkv1d78kvWhWP6rJT/PP4ARTGA2+FduO/9g9FpTyJy94l2xLHPtkdzXU5F1C15Uz91nkexh2K8GXr9CByLVfGaeSvdFOtMpXx+f9GuqcW/tnQXqc8bofvMt/H0E9Q==
   </data>
  </layer>
+ <objectgroup name="enemySpawn">
+  <object name="spawn1" x="572" y="266" width="70" height="110">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn2" x="912" y="526" width="49" height="93">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn3" x="1080" y="78" width="55" height="109">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer name="murD" width="24" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjAL6gvwhbv5wAQAwXwDf
+  </data>
+ </layer>
+ <layer name="deco2" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B4cJnKZl1AE0PnEwsuYhG7wIDpXmq4H+ZGbO6nBriMg00tQAs3IwNquPkqEJ8jQ99ZKtg9kgAAAnEOug==
   </data>
  </layer>
  <layer name="deco" width="24" height="16">
