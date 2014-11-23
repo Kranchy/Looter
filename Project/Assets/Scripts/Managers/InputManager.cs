@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-
 public class InputManager : MonoBehaviour
 {
     public GameObject PlayerObject;
@@ -10,9 +9,8 @@ public class InputManager : MonoBehaviour
     public SpriteRenderer UpperRenderer;
     public ItemMenu ItemMenu;
 
-	int JumpTime;
-	Vector3 Movement;
-
+    int JumpTime;
+    Vector3 Movement;
     public enum Command
     {
         Walk_Right = 0,
@@ -24,34 +22,26 @@ public class InputManager : MonoBehaviour
         Use_Util_Right = 6,
         Use_Util_Left = 7
     }
-
     public delegate void NewCommandHandler(Command command);
-
     public static event NewCommandHandler OnNewCommand;
-
-	// Use this for initialization
-	void Start ()
-	{
+    // Use this for initialization
+    void Start()
+    {
     }
-	
-	// Update is called once per frame
-	void Update ()
-	{
-		// Capture des mouvements et actions
-
+    // Update is called once per frame
+    void Update()
+    {
+        // Capture des mouvements
         if (Player.OnGround)
         {
             if (Input.GetAxis("Horizontal") < 0)
             {
                 PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
                 Player.Orientation = Player.Direction.Left;
-
                 if (OnNewCommand != null) OnNewCommand(Command.Walk_Left);
-
                 if (Input.GetAxis("Jump") > 0)
                 {
                     JumpTime = 5;
-                    
                     if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
                 }
             }
@@ -59,13 +49,10 @@ public class InputManager : MonoBehaviour
             {
                 PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
                 Player.Orientation = Player.Direction.Right;
-
                 if (OnNewCommand != null) OnNewCommand(Command.Walk_Right);
-
                 if (Input.GetAxis("Jump") > 0)
                 {
                     JumpTime = 5;
-
                     if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
                 }
             }
@@ -74,58 +61,49 @@ public class InputManager : MonoBehaviour
                 if (Input.GetAxis("Jump") > 0)
                 {
                     JumpTime = 5;
-                    
                     if (Player.Orientation == Player.Direction.Left)
                         if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
-                    
                     if (Player.Orientation == Player.Direction.Right)
                         if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
                 }
             }
         }
-
         if (JumpTime > 0)
         {
             RigidBody.AddForce(Vector3.up * 75);
             JumpTime -= 1;
         }
-
         if (!Player.OnGround)
         {
             if (Player.Booted && Input.GetAxis("Jump") > 0)
             {
                 JumpTime = 5;
             }
-
             if (Input.GetAxis("Horizontal") < 0)
             {
                 PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
                 Player.Orientation = Player.Direction.Left;
-
                 if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
             }
             if (Input.GetAxis("Horizontal") > 0)
             {
                 PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
                 Player.Orientation = Player.Direction.Right;
-
                 if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
             }
             else
             {
                 if (Player.Orientation == Player.Direction.Left)
                     if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
-
                 if (Player.Orientation == Player.Direction.Right)
                     if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
             }
         }
-        
+
         //Capture des actions
-        
-        if (Input.GetAxis ("Weapon") > 0)
+        if (Input.GetAxis("Weapon") > 0)
         {
-            if (Input.GetAxis ("ItemMenu") > 0)
+            if (Input.GetAxis("ItemMenu") > 0)
             {
                 ItemMenu.OpenWeaponMenu();
             }
@@ -133,15 +111,13 @@ public class InputManager : MonoBehaviour
             {
                 if (Player.Orientation == Player.Direction.Left)
                     if (OnNewCommand != null) OnNewCommand(Command.Use_Weapon_Left);
-
                 if (Player.Orientation == Player.Direction.Right)
                     if (OnNewCommand != null) OnNewCommand(Command.Use_Weapon_Right);
             }
         }
-        
-        if (Input.GetAxis ("Util") > 0)
+        if (Input.GetAxis("Util") > 0)
         {
-            if (Input.GetAxis ("ItemMenu") > 0)
+            if (Input.GetAxis("ItemMenu") > 0)
             {
                 ItemMenu.OpenUtilMenu();
             }
@@ -149,17 +125,15 @@ public class InputManager : MonoBehaviour
             {
                 if (Player.Orientation == Player.Direction.Left)
                     if (OnNewCommand != null) OnNewCommand(Command.Use_Util_Left);
-
                 if (Player.Orientation == Player.Direction.Right)
                     if (OnNewCommand != null) OnNewCommand(Command.Use_Util_Right);
             }
         }
-        
-        if (Input.GetAxis ("Passive") > 0)
+        if (Input.GetAxis("Passive") > 0)
         {
-            if (Input.GetAxis ("ItemMenu") > 0)
+            if (Input.GetAxis("ItemMenu") > 0)
             {
-                ItemMenu.OpenPassiveMenu ();
+                ItemMenu.OpenPassiveMenu();
             }
             else
             {

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Sword : Weapon
 {
+
     // Use this for initialization
 	public override string Name
 	{
