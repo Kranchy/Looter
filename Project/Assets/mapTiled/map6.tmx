@@ -304,9 +304,9 @@
  <tileset firstgid="204" name="deco" tilewidth="48" tileheight="48">
   <image source="tileSets/decor-forest.png" width="192" height="192"/>
  </tileset>
- <layer name="fond" width="24" height="16">
+ <layer name="tunnel" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJylVEEOgDAM6pPmqX2Iv/D/dzXRhCDo5g7Epm4McLVFxHKgEVRvFIuoZ3nP/WlqfCa9+wvHP5OF8qLW5QDKeE7gUjp6MyjRr05+rOtCg7rgDESvfvTt4Dy88a8A3qeywzN69DM/Z8RAfr4/iv+sN5HF13eu8Pm4bHGd06888D1m3tE5u/kxn6L+6GypWXP8GU8ts/8fng/WMoMdtDxNYg==
+   eJxjYBgFo2AUYANBQBwMxKE0Mj8OiOOBOJFG5oNADg3NHgVDHwAAhYIChQ==
   </data>
  </layer>
  <layer name="eau" width="24" height="16">
@@ -321,7 +321,7 @@
  </layer>
  <layer name="terrain" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJzdlN0OgjAMhRuYGocYmRdOX8Of938029gTmmbglMQLl3wplPbQtAWi/z0N0yqBWS3U8vknJjM35s48Fuhvmd2XdbWF2kr6fUWc190zXUVtV/qsBxIvfcvKpTLvF8f3FPeBxn2a4l1/RUt6GhVSOyidEg3wi+1n3gNtiVvTax6kNhvOSjYW1xvN9/O2dafC89qDb8bO29Y9LNT3BzsMXfQXfZz6PzQzvmByMJekNhZ84Gi0DhrnfTYnGT1Yuxu4L/UM+t4nebIbmPMTIekIvQ==
+   eJzdVO0OgjAMbGBqGGpg/hB9DT/e/9HsYi9c5oAZEn/Y5DJW1mtzNxD536gUtcEpNiu50vqzYlDcFQ/FM9O7tGej2H8xT6foFYfCPo2dLZ0n8gfr0RbMdpNPDeYC2gHXwrpfROod9k7G+zSFJX0j11HhDWJrL6PWLb33lF/yG9zx3FbefoitrPXFMNCK553Vp37z3CHzvjTgO/vNc/cr+dOoiTvyQl/oOPV/qGZyjmrgC74Vn8kBJ+Lq7Fya45pAfFj5bmCf0wz8aS7WxbsBn1/DZQjb
   </data>
  </layer>
  <objectgroup name="enemySpawn">
@@ -335,7 +335,7 @@
     <property name="Enemy" value="1"/>
    </properties>
   </object>
-  <object name="spawn3" x="806" y="99" width="58" height="90">
+  <object name="spawn3" x="833" y="98" width="58" height="90">
    <properties>
     <property name="Enemy" value="1"/>
    </properties>
@@ -348,7 +348,7 @@
  </layer>
  <layer name="deco" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBg4cA2ILyHh6xSaRYl+WgGYH4l1G7HqYOaORIDN75eIxITC9xoV3IfLHmqYjQsMVbPxpWF8cYctX6GXJyM1f5ACAOJ6JhE=
+   eJxjYBg4cA2ILyHh6xSaRYp+mN2U2EksIMUeerhnqANY3CGDS0RiQuF7jQruw2UPNczGBYaq2ejxiC6HK+6w5V/08gSf2aMAAgB12CYS
   </data>
  </layer>
  <layer name="terre" width="24" height="16">

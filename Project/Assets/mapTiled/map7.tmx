@@ -304,9 +304,9 @@
  <tileset firstgid="204" name="deco" tilewidth="48" tileheight="48">
   <image source="tileSets/decor-forest.png" width="192" height="192"/>
  </tileset>
- <layer name="fond" width="24" height="16">
+ <layer name="tunnel" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJwzYGBgMKAhNqcRBpltSGNsgURTE8PCxpCGYQ4zn9jwGozhT4uwxxUXQy390zMP0DP8g5EwNcIf3T/xUExuuscVB7j8R2w4E8rLtEqHAJT0Tck=
+   eJxjYBgFo2AUjILBAYKAOBiIc2lkfhwQx9PI7KEIAFKeAdA=
   </data>
  </layer>
  <layer name="eau" width="24" height="16">

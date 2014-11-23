@@ -307,11 +307,6 @@
  <tileset firstgid="220" name="taxe" tilewidth="48" tileheight="48">
   <image source="tileSets/Taxe SAS.png" width="192" height="96"/>
  </tileset>
- <layer name="fond" width="24" height="16">
-  <data encoding="base64" compression="zlib">
-   eJwzYGBgMKAhNqcRBpltSAWMzxwLJJpcjB4ehjjY1AhfmJnobGLCi9hwt6By+BPClIQ9OfEzVNI/veIAX5hRI37whRk14gdXOrdA41MaB7j8R0o5hCssaJkOAVEdTQU=
-  </data>
- </layer>
  <layer name="taxe" width="24" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjDRwF4jv0dD8h0D8iIbmjwLqAABuKgN/

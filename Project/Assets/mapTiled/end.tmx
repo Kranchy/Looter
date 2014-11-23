@@ -312,9 +312,9 @@
    </objectgroup>
   </tile>
  </tileset>
- <layer name="fond" width="24" height="16">
+ <layer name="tunnel" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJwzYGBgMKAhNqcRBpltSGNsgUSTiw2wmGGAJE6N8EW2xxAtfIgNL2LCHOZ+eoU/pWFPbPwMxfRPzzyAK8yoET/4wowa8YMrnVug8SmNA1z+Izac8aUfWqZDALLFTRo=
+   eJzlUtEOwiAM5OvcnG8D8U3wddP/f7UkveRWgZjImySXDtZerwfO/c86CWbBJDgP5JyU9yYIgiSIP/RinYXTC7LGUInxyx7QypzJcAM4z9RjVrR63YkzGd04q/VEXtDYmmcTXKge+Qzm4z3HgkdnBm9ywWP7evepAXNeO/zsjfWJOaA5uaOnvTtfSZOtYT7WG8x/aKl5hDtgHvs+F8GT8hb9zu44T2x4tGn9biLworxd9/AV80LTqLW6uqcj+cHL72zUglcFuIvS5w1acEYL
   </data>
  </layer>
  <layer name="eau" width="24" height="16">

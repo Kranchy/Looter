@@ -325,11 +325,6 @@
  <tileset firstgid="204" name="deco" tilewidth="48" tileheight="48">
   <image source="tileSets/decor-forest.png" width="192" height="192"/>
  </tileset>
- <layer name="fond" width="24" height="16">
-  <data encoding="base64" compression="zlib">
-   eJylVEEOgDAI40nbCf7/MvVgQrBlIIfGDV0tBbZEZN9YASjWxQbrKe9zXsnaPzW8+wvGP/EC5YK+0waM5KyOK6vJyQMDcSvy+70RKIhV9HsPMv9ZDhX+ag/5f3T0dz3a4PzJ/45+E+4P6+1Md5ZD7ONYs+6cvfzeHwvx7myhWWP8Kl8t0/snzkfUMsEFUXZMbg==
-  </data>
- </layer>
  <layer name="eau" width="24" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIKRC07iwNQCp3BgaoHTODAxAAAboA41

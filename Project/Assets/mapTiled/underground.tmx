@@ -304,9 +304,9 @@
  <tileset firstgid="204" name="deco" tilewidth="48" tileheight="48">
   <image source="tileSets/decor-forest.png" width="192" height="192"/>
  </tileset>
- <layer name="fond" width="24" height="16">
+ <layer name="tunnel" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJx9lEESwzAIA/kjvpv/v6I9lJntVumBiUMQSBhyq+rA7tv6bfM5038+/kbMnq9sEH+Bbz1H+IGtryvXnAfb76e++S2nE/KeYFf49SUs+8O4K591JFzrzBjWp56Wn5pH3xMn38OTZt4Ze0XOo6fnI83F+ibUSLO1cR0w5Ek874l9SPPp2Zz67uVRTmp2Hs6ieWy+qee7vsqXeCe+xHnHOuSwdvbVPLh/5pDqOu+/ferKPXDd1Fv20n7v19SvNs9awm/+tDdJj/k/7QY5uff7nv7D3pf0b2U8Nb0A+KWGUQ==
+   eJx1k7EOwzAIRPm+ZrT3MDft/6/1YKTXZzsSCsJwB2d8R0Qfdg/LYW36FStrM0ZLnHfkNWBVXUN+RzxRZxxzF0bHn/wV68IrjkQO5zEmZ+iqS5j741mLlYsat00ec27hcaaEz7/18HwtVr2M1RGzFvRv1VP3lO9a9mXu3a6Qy7tB3bhbu7vx7rGnjP+eTjvAnS4O1/PdOEYMvy/36Dh5T/0R76TbTkfvzE53zmk8xrx3p92jzx3jfKe3xb6pAXunXr5b68z75E4Q3zP4DZOfXK9hn2EP7BJn5Vyx3n3O8wc4/H9j/d7z7KOcil/Tfh1QhbM=
   </data>
  </layer>
  <layer name="eau" width="24" height="16">

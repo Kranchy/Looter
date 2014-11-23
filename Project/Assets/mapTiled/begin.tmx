@@ -312,11 +312,6 @@
    </objectgroup>
   </tile>
  </tileset>
- <layer name="fond" width="24" height="16">
-  <data encoding="base64" compression="zlib">
-   eJwzYGBgMKAhNqcRBpltSGNsgUSTiw2wmGGAJE6N8EW2xxAtfIgNL2LCHOZ+eoU/pWFPbPwMxfRPzzyAK8yoET/4wowa8YMrnVug8SmNA1z+Izac8aUfWqZDALLFTRo=
-  </data>
- </layer>
  <layer name="eau" width="24" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRQAk4SQSmBJwiAp/GggkBAFdVEiM=

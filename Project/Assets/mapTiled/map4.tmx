@@ -304,9 +304,9 @@
  <tileset firstgid="204" name="deco" tilewidth="48" tileheight="48">
   <image source="tileSets/decor-forest.png" width="192" height="192"/>
  </tileset>
- <layer name="fond" width="24" height="16">
+ <layer name="tunnel" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJylVEEOgCAM25PwtP2DD/j/V6iJJE3pBOTQOCfWtjCLmR03CkH1VnGIepf3ed+TGq9Oz/4i49/JQnlR63wBkXh24FI6ZjMI0Y9JfqzjRYU64BuIWf3ou6HSfeZhxJ9ldA5ymtHv1ueEGTGQn8+P4lfn62vPcQ+yfBSc1mX6lQc+x8y7OmeNH/0H9VdnS81axu/Wa9n9//B8sJYdXIU1TNQ=
+   eJxjYBgFo4D+IIHG5gfT2PxsGps/CkYBPQAAiL0BHw==
   </data>
  </layer>
  <layer name="eau" width="24" height="16">
@@ -331,6 +331,11 @@
    </properties>
   </object>
   <object name="spawn2" x="746" y="518" width="62" height="99">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="spawn3" x="405" y="572" width="74" height="99">
    <properties>
     <property name="Enemy" value="1"/>
    </properties>
