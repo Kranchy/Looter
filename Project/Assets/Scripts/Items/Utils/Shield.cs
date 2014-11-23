@@ -22,4 +22,7 @@ public class Shield : Util
 	void Update ()
     {
     }
+
+	public override void Effect(int side){
+		}
 }

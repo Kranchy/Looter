@@ -18,4 +18,6 @@ public abstract class Util : Item
 	void Update ()
     {
 	}
+
+	public abstract void Effect(int side);
 }
