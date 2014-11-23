@@ -9,13 +9,17 @@ public abstract class Weapon : Item
     public List<Sprite> UsageAnimRight;
     public List<Sprite> UsageAnimLeft;
 
+    public AudioClip UsageSound;
+
 	// Use this for initialization
 	void Start () {
 	
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 	
 	}
+
+	public abstract void Effect(int side);
 }

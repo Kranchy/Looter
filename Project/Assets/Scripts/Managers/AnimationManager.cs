@@ -9,12 +9,12 @@ public class AnimationManager : MonoBehaviour
     public SpriteRenderer UpperRenderer;
     public SpriteRenderer LowerRenderer;
 
-    public AudioClip WalkSound;
-
     public int LowerAnimCount { get; set; }
     public int UpperAnimCount { get; set; }
     public int LowerAnimIndex { get; set; }
     public int UpperAnimIndex { get; set; }
+
+	float useTime;
 
 	// Use this for initialization
 	void Start ()
@@ -28,9 +28,6 @@ public class AnimationManager : MonoBehaviour
         LowerRenderer.sprite = Player.LowerAnimRight[0];
         UpperRenderer.sprite = Player.UpperAnimRight[0];
 
-        GameObject go = (GameObject)Instantiate(Resources.Load("Prefabs/Items/Sword"));
-        Sword sword = go.GetComponent("Sword") as Sword;
-        Player.Weapon = sword;
 	}
 	
 	// Update is called once per frame
@@ -68,15 +65,13 @@ public class AnimationManager : MonoBehaviour
         if (command == InputManager.Command.Walk_Right)
         {
             LowerAnimCount = Player.LowerAnimRight.Count;
-
+			
             if (Player.UsingWeapon) UpperAnimCount = Player.Weapon.UsageAnimRight.Count;
             else if (Player.UsingUtil) UpperAnimCount = Player.Util.UsageAnimRight.Count;
             else UpperAnimCount = LowerAnimCount;
 
             UpdateLowerAnim();
             if (!Player.UsingWeapon && !Player.UsingUtil) UpdateUpperAnim();
-
-            audio.PlayOneShot(WalkSound);
 
             AnimWalkRight();
         }
@@ -91,8 +86,6 @@ public class AnimationManager : MonoBehaviour
 
             UpdateLowerAnim();
             if (!Player.UsingWeapon && !Player.UsingUtil) UpdateUpperAnim();
-
-            audio.PlayOneShot(WalkSound);
 
             AnimWalkLeft();
         }
@@ -134,6 +127,10 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
+			if(Time.time > useTime + 5){
+				Player.Weapon.Effect (0);
+				useTime = Time.time;
+			}
         }
 
         if (command == InputManager.Command.Use_Weapon_Left)
@@ -145,6 +142,10 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
+			if(Time.time > useTime + 5){
+				Player.Weapon.Effect (1);
+				useTime = Time.time;
+			}
         }
 
         if (command == InputManager.Command.Use_Util_Right)

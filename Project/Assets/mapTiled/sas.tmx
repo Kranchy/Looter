@@ -332,6 +332,9 @@
    eJyVVO0KwyAMlNptoN2o9kfbvf8T7cf2Okshx25BbSscBjWXT+Ncfb0FrxP4NLhKvJ2gF3jaIfdG3nA5yA3ehyAqgiALkiLreaLz6UAMnfJCJygi7VHvcYd39wMxjMTNPjI3YmHbSfe9GGbBjfShx3I29xwHYtizsQoWwqp22V+uB2KKrp0n9E7JPmKz+eKcwfZQ4d7q6xv2OX8M2LlqrM+CLnonVuyzDeRsJXmp8ML30f3qNzX4zy7kBX2/oeV/q0Ytbu6Fkv88N1CjvZmEOWB7eii85bmBXvcGvUEy3Jl0+Z1X3uD+/7adEfyX7V9kOZj77Opzg3vfnn8B6hwunw==
   </data>
  </layer>
+ <objectgroup name="trigger">
+  <object name="trigger" x="662" y="425" width="105" height="210"/>
+ </objectgroup>
  <layer name="deco2" width="24" height="16">
   <data encoding="base64" compression="zlib">
    eJxjYBgYcG6A7B0J4CwJai+QYf5lEswmVi05+i4zoLofnU+sPkJqSXUXKf6mp/ux8Qm5iZpqaQ0ukqj+KpQmJb8MNwAAdQkZVg==
