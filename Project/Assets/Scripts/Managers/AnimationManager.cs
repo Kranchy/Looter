@@ -15,6 +15,8 @@ public class AnimationManager : MonoBehaviour
     public int UpperAnimIndex { get; set; }
 	public AudioClip Soundwalk;
 
+	float useTime;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -128,7 +130,10 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
-			Player.Weapon.Effect (0);
+			if(Time.time > useTime + 5){
+				Player.Weapon.Effect (0);
+				useTime = Time.time;
+			}
         }
 
         if (command == InputManager.Command.Use_Weapon_Left)
@@ -140,7 +145,10 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
-			Player.Weapon.Effect (1);
+			if(Time.time > useTime + 5){
+				Player.Weapon.Effect (1);
+				useTime = Time.time;
+			}
         }
 
         if (command == InputManager.Command.Use_Util_Right)
