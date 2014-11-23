@@ -127,6 +127,7 @@ public class ItemMenu : MonoBehaviour
 
 						if (printUtilMenu) {
 								if (Input.GetAxis ("Util") > 0) {
+					Player.Util = Inventory.Utils[selectedItem];
 										printUtilMenu = false;
 								}
 								if (Input.GetAxisRaw ("ItemNext") > 0) {
@@ -146,6 +147,7 @@ public class ItemMenu : MonoBehaviour
 						}
 						if (printPassiveMenu) {
 								if (Input.GetAxis ("Passive") > 0) {
+					Player.Passive = Inventory.Passives[selectedItem];
 										printPassiveMenu = false;
 								}
 								if (Input.GetAxisRaw ("ItemNext") > 0) {
