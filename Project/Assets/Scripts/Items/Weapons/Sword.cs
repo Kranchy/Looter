@@ -24,7 +24,21 @@ public class Sword : Weapon
     {
     }
 
-	public override void Effect(int side){
-		
+	public override void Effect(int side)
+    {
+        if (side == 0)
+        {
+            GameObject go = Instantiate(Resources.Load("Prefabs/Projectiles/SwordProjectile"), transform.position, transform.rotation) as GameObject;
+            Swordo swordo = go.GetComponent("Swordo") as Swordo;
+            swordo.Speed = 1;
+            swordo.Damage = this.Damage;
+        }
+        else
+        {
+            GameObject go = Instantiate(Resources.Load("Prefabs/Projectiles/SwordProjectile"), transform.position, transform.rotation) as GameObject;
+            Swordo swordo = go.GetComponent("Swordo") as Swordo;
+            swordo.Speed = -1;
+            swordo.Damage = this.Damage;
+        }
 	}
 }

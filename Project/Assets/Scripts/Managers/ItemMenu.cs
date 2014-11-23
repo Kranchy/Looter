@@ -25,7 +25,6 @@ public class ItemMenu : MonoBehaviour
 				Player.Weapon = Inventory.Weapons [0];
 				Player.Util = Inventory.Utils [0];
 				Player.Passive = Inventory.Passives [0];
-
 		}
 
 		void OnGUI ()
@@ -98,9 +97,11 @@ public class ItemMenu : MonoBehaviour
 										}
 										GUI.Button (new Rect (Screen.width - 100, 10 + 40 * i, 40, 40), Inventory.Weapons [i].Icon);
 								}
-						} else {
-								GUI.Button (new Rect (Screen.width - 100, 10, 40, 40), Selected);
-								GUI.Button (new Rect (Screen.width - 100, 10, 40, 40), Player.Weapon.Icon);
+						}
+                        else
+                        {
+                            GUI.Button (new Rect (Screen.width - 100, 10, 40, 40), Selected);
+                            GUI.Button (new Rect (Screen.width - 100, 10, 40, 40), Player.Weapon.Icon);
 						}
 				}
 
@@ -108,46 +109,33 @@ public class ItemMenu : MonoBehaviour
 
 		public void OpenWeaponMenu ()
 		{
-
 				printWeaponMenu = true;
 				printUtilMenu = false;
 				printPassiveMenu = false;
-
 		}
 
 		public void OpenUtilMenu ()
 		{
-		
 				printUtilMenu = true;
 				printWeaponMenu = false;
 				printPassiveMenu = false;
-		
 		}
 
 		public void OpenPassiveMenu ()
 		{
-		
 				printPassiveMenu = true;
 				printWeaponMenu = false;
 				printUtilMenu = false;
-		
 		}
 
 		public void OpenSasMenu ()
 		{
-	
 				printSasMenu = true;
-
-		
 		}
 
 		public void CloseSasMenu ()
 		{
-
-		
 				printSasMenu = false;
-		
-		
 		}
 
 		void Update ()
@@ -290,6 +278,7 @@ public class ItemMenu : MonoBehaviour
 //						Inventory.Passives[selectedSasItemx] = null;
 //						
 //					}
+<<<<<<< HEAD
 //				}
 
 								
@@ -297,4 +286,9 @@ public class ItemMenu : MonoBehaviour
 						}
 				}
 		}
+=======
+                        }
+                }
+        }
+>>>>>>> 7ef90c68394edfddd13eacc2a2bbf28524afe9a5
 }

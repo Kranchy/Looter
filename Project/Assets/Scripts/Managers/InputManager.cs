@@ -109,9 +109,9 @@ public class InputManager : MonoBehaviour
 			}
 			else
 			{
-				if (Player.Orientation == Player.Direction.Left)
+				if ((Player.Orientation == Player.Direction.Left) && !(Player.UsingWeapon || Player.UsingUtil))
 					if (OnNewCommand != null) OnNewCommand(Command.Use_Weapon_Left);
-				if (Player.Orientation == Player.Direction.Right)
+				if ((Player.Orientation == Player.Direction.Right) && !(Player.UsingWeapon || Player.UsingUtil))
 					if (OnNewCommand != null) OnNewCommand(Command.Use_Weapon_Right);
 			}
 		}
@@ -123,9 +123,9 @@ public class InputManager : MonoBehaviour
 			}
 			else
 			{
-				if (Player.Orientation == Player.Direction.Left)
+                if ((Player.Orientation == Player.Direction.Left) && !(Player.UsingWeapon || Player.UsingUtil))
 					if (OnNewCommand != null) OnNewCommand(Command.Use_Util_Left);
-				if (Player.Orientation == Player.Direction.Right)
+                if ((Player.Orientation == Player.Direction.Right) && !(Player.UsingWeapon || Player.UsingUtil))
 					if (OnNewCommand != null) OnNewCommand(Command.Use_Util_Right);
 			}
 		}

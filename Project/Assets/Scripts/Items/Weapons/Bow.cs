@@ -25,10 +25,17 @@ public class Bow : Weapon
     }
 
 	public override void Effect (int side){
-		if (side == 0) {
-						Instantiate (Resources.Load ("Prefabs/Projectiles/fleche"),transform.position,transform.rotation);
-				} else {
-						Instantiate (Resources.Load ("Prefabs/Projectiles/flecheright"),transform.position,transform.rotation);
-				}
+		if (side == 0)
+        {
+            GameObject go = Instantiate(Resources.Load("Prefabs/Projectiles/fleche"), transform.position, transform.rotation) as GameObject;
+            Arrow arrow = go.GetComponent("Arrow") as Arrow;
+            arrow.Damage = this.Damage;
+        }
+        else
+        {
+            GameObject go = Instantiate(Resources.Load("Prefabs/Projectiles/flecheright"), transform.position, transform.rotation) as GameObject;
+            Arrow arrow = go.GetComponent("Arrow") as Arrow;
+            arrow.Damage = this.Damage;
+        }
 	}
 }
