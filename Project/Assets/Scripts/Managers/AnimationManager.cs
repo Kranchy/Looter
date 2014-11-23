@@ -34,7 +34,21 @@ public class AnimationManager : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-
+        if (Player.UsingWeapon)
+        {
+            if (Player.Orientation == Player.Direction.Left)
+                AnimWeaponLeft();
+            if (Player.Orientation == Player.Direction.Right)
+                AnimWeaponRight();
+        }
+        
+        if (Player.UsingUtil)
+        {
+            if (Player.Orientation == Player.Direction.Left)
+                AnimUtilLeft();
+            if (Player.Orientation == Player.Direction.Right)
+                AnimUtilRight();
+        }
     }
 
     void OnEnable()
@@ -58,7 +72,7 @@ public class AnimationManager : MonoBehaviour
             else UpperAnimCount = LowerAnimCount;
 
             UpdateLowerAnim();
-            UpdateUpperAnim();
+            if (!Player.UsingWeapon && !Player.UsingUtil) UpdateUpperAnim();
 
             AnimWalkRight();
         }
@@ -72,7 +86,7 @@ public class AnimationManager : MonoBehaviour
             else UpperAnimCount = LowerAnimCount;
 
             UpdateLowerAnim();
-            UpdateUpperAnim();
+            if (!Player.UsingWeapon && !Player.UsingUtil) UpdateUpperAnim();
 
             AnimWalkLeft();
         }
@@ -86,7 +100,7 @@ public class AnimationManager : MonoBehaviour
             else UpperAnimCount = LowerAnimCount;
 
             UpdateLowerAnim();
-            UpdateUpperAnim();
+            if (!Player.UsingWeapon && !Player.UsingUtil) UpdateUpperAnim();
 
             AnimJumpRight();
         }
@@ -100,41 +114,53 @@ public class AnimationManager : MonoBehaviour
             else UpperAnimCount = LowerAnimCount;
 
             UpdateLowerAnim();
-            UpdateUpperAnim();
+            if (!Player.UsingWeapon && !Player.UsingUtil) UpdateUpperAnim();
 
             AnimJumpLeft();
         }
 
         if (command == InputManager.Command.Use_Weapon_Right)
         {
-            UpperAnimCount = Player.Weapon.UsageAnimRight.Count;
+            if (!Player.UsingWeapon && !Player.UsingUtil)
+            {
+                UpperAnimCount = Player.Weapon.UsageAnimRight.Count;
+                UpperAnimIndex = 0;
 
-            UpperAnimIndex = 0;
-            AnimWeaponRight();
+                Player.UsingWeapon = true;
+            }
         }
 
         if (command == InputManager.Command.Use_Weapon_Left)
         {
-            UpperAnimCount = Player.Weapon.UsageAnimLeft.Count;
+            if (!Player.UsingWeapon && !Player.UsingUtil)
+            {
+                UpperAnimCount = Player.Weapon.UsageAnimLeft.Count;
+                UpperAnimIndex = 0;
 
-            UpperAnimIndex = 0;
-            AnimWeaponLeft();
+                Player.UsingWeapon = true;
+            }
         }
 
         if (command == InputManager.Command.Use_Util_Right)
         {
-            UpperAnimCount = Player.Util.UsageAnimRight.Count;
+            if (!Player.UsingWeapon && !Player.UsingUtil)
+            {
+                UpperAnimCount = Player.Util.UsageAnimRight.Count;
+                UpperAnimIndex = 0;
 
-            UpperAnimIndex = 0;
-            AnimUtilRight();
+                Player.UsingUtil = true;
+            }
         }
 
         if (command == InputManager.Command.Use_Util_Left)
         {
-            UpperAnimCount = Player.Util.UsageAnimLeft.Count;
+            if (!Player.UsingWeapon && !Player.UsingUtil)
+            {
+                UpperAnimCount = Player.Util.UsageAnimLeft.Count;
+                UpperAnimIndex = 0;
 
-            UpperAnimIndex = 0;
-            AnimUtilLeft();
+                Player.UsingUtil = true;
+            }
         }
     }
 
@@ -152,63 +178,67 @@ public class AnimationManager : MonoBehaviour
     {
         LowerRenderer.sprite = Player.LowerAnimRight[LowerAnimIndex];
 
-        if (Player.UsingWeapon) AnimWeaponRight();
-        else if (Player.UsingUtil) AnimUtilRight();
-        else UpperRenderer.sprite = Player.UpperAnimRight[UpperAnimIndex];
+        if (!Player.UsingWeapon && !Player.UsingUtil)
+            UpperRenderer.sprite = Player.UpperAnimRight[UpperAnimIndex];
     }
 
     private void AnimWalkLeft()
     {
         LowerRenderer.sprite = Player.LowerAnimLeft[LowerAnimIndex];
 
-        if (Player.UsingWeapon) AnimWeaponLeft();
-        else if (Player.UsingUtil) AnimUtilLeft();
-        else UpperRenderer.sprite = Player.UpperAnimLeft[UpperAnimIndex];
+        if (!Player.UsingWeapon && !Player.UsingUtil) 
+            UpperRenderer.sprite = Player.UpperAnimLeft[UpperAnimIndex];
     }
 
     private void AnimJumpRight()
     {
         LowerRenderer.sprite = Player.JumpAnimRight[LowerAnimIndex];
 
-        if (Player.UsingWeapon) AnimWeaponRight();
-        else if (Player.UsingUtil) AnimUtilRight();
-        else UpperRenderer.sprite = null;
+        if (!Player.UsingWeapon && !Player.UsingUtil) 
+            UpperRenderer.sprite = null;
     }
 
     private void AnimJumpLeft()
     {
         LowerRenderer.sprite = Player.JumpAnimLeft[LowerAnimIndex];
 
-        if (Player.UsingWeapon) AnimWeaponLeft();
-        else if (Player.UsingUtil) AnimUtilLeft();
-        else UpperRenderer.sprite = null;
+        if (!Player.UsingWeapon && !Player.UsingUtil) 
+            UpperRenderer.sprite = null;
     }
 
     private void AnimWeaponRight()
     {
-        UpperRenderer.sprite = Player.Weapon.UsageAnimRight[UpperAnimIndex];
         if (UpperAnimIndex == UpperAnimCount - 1)
             Player.UsingWeapon = false;
+
+        UpperRenderer.sprite = Player.Weapon.UsageAnimRight[UpperAnimIndex];
+        UpdateUpperAnim();
     }
 
     private void AnimWeaponLeft()
     {
-        UpperRenderer.sprite = Player.Weapon.UsageAnimLeft[UpperAnimIndex];
         if (UpperAnimIndex == UpperAnimCount - 1)
             Player.UsingWeapon = false;
+
+        UpperRenderer.sprite = Player.Weapon.UsageAnimLeft[UpperAnimIndex];
+        UpdateUpperAnim();
     }
 
     private void AnimUtilRight()
     {
-        UpperRenderer.sprite = Player.Util.UsageAnimRight[UpperAnimIndex];
         if (UpperAnimIndex == UpperAnimCount - 1)
             Player.UsingUtil = false;
+
+        UpperRenderer.sprite = Player.Util.UsageAnimRight[UpperAnimIndex];
+        UpdateUpperAnim();
     }
 
     private void AnimUtilLeft()
     {
-        UpperRenderer.sprite = Player.Util.UsageAnimLeft[UpperAnimIndex];
         if (UpperAnimIndex == UpperAnimCount - 1)
             Player.UsingUtil = false;
+
+        UpperRenderer.sprite = Player.Util.UsageAnimLeft[UpperAnimIndex];
+        UpdateUpperAnim();
     }
 }
