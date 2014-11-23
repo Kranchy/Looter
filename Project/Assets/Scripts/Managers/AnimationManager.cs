@@ -127,7 +127,7 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
-			if(Time.time > useTime + 5){
+			if(Time.time > useTime + Player.Weapon.Cd){
 				Player.Weapon.Effect (0);
 				useTime = Time.time;
 			}
@@ -142,7 +142,7 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
-			if(Time.time > useTime + 5){
+			if(Time.time > useTime + Player.Weapon.Cd){
 				Player.Weapon.Effect (1);
 				useTime = Time.time;
 			}
@@ -157,7 +157,7 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingUtil = true;
             }
-			if(Time.time > useTime + 5){
+			if(Time.time > useTime + Player.Util.Cd){
 				Player.Util.Effect (0);
 				useTime = Time.time;
 			}
@@ -172,7 +172,7 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingUtil = true;
             }
-			if(Time.time > useTime + 5){
+			if(Time.time > useTime + Player.Util.Cd){
 				Player.Util.Effect (0);
 				useTime = Time.time;
 			}
