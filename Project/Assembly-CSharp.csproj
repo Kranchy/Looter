@@ -19,11 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-<<<<<<< HEAD
 	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
-=======
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
->>>>>>> 4a389587671cae09f25444580c232051ddbfa3ed
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -65,11 +61,9 @@
      <Compile Include="Assets\Scripts\Items\Projectiles\Arrow.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Bombo2.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Knife.cs" />
+     <Compile Include="Assets\Scripts\Items\Projectiles\Projectile.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Shovelo.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Items\Projectiles\Swordo.cs" />
-=======
->>>>>>> 4a389587671cae09f25444580c232051ddbfa3ed
      <Compile Include="Assets\Scripts\Items\Utils\Hookshot.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Shield.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Shovel.cs" />
@@ -80,44 +74,19 @@
      <Compile Include="Assets\Scripts\Managers\AnimationManager.cs" />
      <Compile Include="Assets\Scripts\Managers\CameraManager.cs" />
      <Compile Include="Assets\Scripts\Managers\HealthManager.cs" />
-<<<<<<< HEAD
-=======
      <Compile Include="Assets\Scripts\Managers\Healthbar.cs" />
->>>>>>> 4a389587671cae09f25444580c232051ddbfa3ed
      <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Inventory.cs" />
      <Compile Include="Assets\Scripts\Managers\ItemCreator.cs" />
      <Compile Include="Assets\Scripts\Managers\ItemMenu.cs" />
      <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Managers\SoundManager.cs" />
-=======
->>>>>>> 4a389587671cae09f25444580c232051ddbfa3ed
      <Compile Include="Assets\Scripts\Obstacles\Obstacle.cs" />
      <Compile Include="Assets\Scripts\Obstacles\Sand.cs" />
      <Compile Include="Assets\Scripts\Obstacles\WallD.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileAnimator.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
-<<<<<<< HEAD
-     <None Include="Assets\Tiled2Unity\Imported\map2.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
-     <None Include="Assets\Tiled2Unity\Imported\map8.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\map4.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\map5.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\map1.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\map7.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\map6.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\map9.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\map10.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\underground.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\map3.tiled2unity.xml" />
-=======
      <None Include="Assets\Tiled2Unity\Imported\map3.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\map5.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
@@ -137,7 +106,6 @@
      <None Include="Assets\Tiled2Unity\Imported\begin.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\map9.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
->>>>>>> 4a389587671cae09f25444580c232051ddbfa3ed
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

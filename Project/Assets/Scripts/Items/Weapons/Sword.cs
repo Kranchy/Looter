@@ -32,6 +32,7 @@ public class Sword : Weapon
             Swordo swordo = go.GetComponent("Swordo") as Swordo;
             swordo.Speed = 1;
             swordo.Damage = this.Damage;
+            swordo.IsAlly = true;
         }
         else
         {
@@ -39,6 +40,7 @@ public class Sword : Weapon
             Swordo swordo = go.GetComponent("Swordo") as Swordo;
             swordo.Speed = -1;
             swordo.Damage = this.Damage;
+            swordo.IsAlly = true;
         }
 	}
 }

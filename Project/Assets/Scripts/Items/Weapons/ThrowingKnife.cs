@@ -29,12 +29,14 @@ public class ThrowingKnife : Weapon
 			GameObject go = Instantiate (Resources.Load ("Prefabs/Projectiles/Couteau"),transform.position,transform.rotation) as GameObject;
             Knife knife = go.GetComponent("Knife") as Knife;
             knife.Damage = this.Damage;
+            knife.IsAlly = true;
 		}
         else
         {
             GameObject go = Instantiate(Resources.Load("Prefabs/Projectiles/couteauright"), transform.position, transform.rotation) as GameObject;
             Knife knife = go.GetComponent("Knife") as Knife;
             knife.Damage = this.Damage;
+            knife.IsAlly = true;
 		}
 	}
 }

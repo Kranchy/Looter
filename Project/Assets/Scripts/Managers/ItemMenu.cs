@@ -3,7 +3,6 @@ using System.Collections;
 
 public class ItemMenu : MonoBehaviour
 {
-
 		bool printWeaponMenu = false;
 		bool printUtilMenu = false;
 		bool printPassiveMenu = false;
@@ -278,11 +277,6 @@ public class ItemMenu : MonoBehaviour
 //						Inventory.Passives[selectedSasItemx] = null;
 //						
 //					}
-<<<<<<< HEAD
-                        }
-                }
-        }
-=======
 //				}
 
 								
@@ -290,5 +284,4 @@ public class ItemMenu : MonoBehaviour
 						}
 				}
 		}
->>>>>>> 4a389587671cae09f25444580c232051ddbfa3ed
 }

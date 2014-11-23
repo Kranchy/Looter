@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Items\Projectiles\Arrow.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Bombo2.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Knife.cs" />
+     <Compile Include="Assets\Scripts\Items\Projectiles\Projectile.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Shovelo.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Swordo.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Hookshot.cs" />

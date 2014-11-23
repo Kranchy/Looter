@@ -16,12 +16,11 @@ public class Bow : Weapon
 
     void Start()
     {
-	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-
+	void Update ()
+    {
     }
 
 	public override void Effect (int side){
@@ -30,12 +29,14 @@ public class Bow : Weapon
             GameObject go = Instantiate(Resources.Load("Prefabs/Projectiles/fleche"), transform.position, transform.rotation) as GameObject;
             Arrow arrow = go.GetComponent("Arrow") as Arrow;
             arrow.Damage = this.Damage;
+            arrow.IsAlly = true;
         }
         else
         {
             GameObject go = Instantiate(Resources.Load("Prefabs/Projectiles/flecheright"), transform.position, transform.rotation) as GameObject;
             Arrow arrow = go.GetComponent("Arrow") as Arrow;
             arrow.Damage = this.Damage;
+            arrow.IsAlly = true;
         }
 	}
 }
