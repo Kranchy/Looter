@@ -11,14 +11,13 @@ public class HealthManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if ((gameObject.GetComponent ("Human") as Human).HP == 0) {
+		if ((gameObject.GetComponent ("Human") as Human).HP <= 0) {
 			Destroy (gameObject);
 				}
 
 		if (gameObject.transform.position.y < -20) {
 
 			(gameObject.GetComponent ("Human") as Human).HP = 0;
-			Application.LoadLevel (Application.loadedLevel);
 
 				}
 	}

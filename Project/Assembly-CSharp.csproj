@@ -62,10 +62,7 @@
      <Compile Include="Assets\Scripts\Items\Projectiles\Bombo2.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Knife.cs" />
      <Compile Include="Assets\Scripts\Items\Projectiles\Shovelo.cs" />
-<<<<<<< HEAD
-=======
      <Compile Include="Assets\Scripts\Items\Projectiles\Swordo.cs" />
->>>>>>> 7ef90c68394edfddd13eacc2a2bbf28524afe9a5
      <Compile Include="Assets\Scripts\Items\Utils\Hookshot.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Shield.cs" />
      <Compile Include="Assets\Scripts\Items\Utils\Shovel.cs" />
@@ -76,10 +73,7 @@
      <Compile Include="Assets\Scripts\Managers\AnimationManager.cs" />
      <Compile Include="Assets\Scripts\Managers\CameraManager.cs" />
      <Compile Include="Assets\Scripts\Managers\HealthManager.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\Scripts\Managers\Healthbar.cs" />
-=======
->>>>>>> 7ef90c68394edfddd13eacc2a2bbf28524afe9a5
      <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Inventory.cs" />
      <Compile Include="Assets\Scripts\Managers\ItemCreator.cs" />
@@ -111,12 +105,6 @@
      <None Include="Assets\Tiled2Unity\Imported\begin.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\map9.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
-<<<<<<< HEAD
-=======
-     <None Include="Assets\Tiled2Unity\Imported\map10.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\underground.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\map3.tiled2unity.xml" />
->>>>>>> 7ef90c68394edfddd13eacc2a2bbf28524afe9a5
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

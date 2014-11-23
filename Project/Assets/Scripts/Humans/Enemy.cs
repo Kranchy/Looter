@@ -14,6 +14,12 @@ public class Enemy : Human {
 			OnGround = true;
 		}
 	}
+
+	void OnTriggerEnter2D(Collider2D shotCollider)
+	{
+		HP --;
+		Destroy (shotCollider);
+	}
 	
 	public void OnCollisionExit2D(Collision2D collision)
 	{
