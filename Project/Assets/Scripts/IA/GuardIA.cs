@@ -20,7 +20,6 @@ public class GuardIA : MonoBehaviour {
 						transform.Translate (new Vector3 ((gameObject.GetComponent ("Enemy") as Enemy).speed, 0, 0));
 				if (goesRight){
 				//(gameObject.GetComponent ("SpriteRenderer") as SpriteRenderer).sprite = Resources.Load ("Sprite/AnimationGGroite/Garde" + steps) as Sprite;
-				Debug.Log (("Sprite/AnimationGGroite/Garde" + steps));
 				if (steps == 4) steps = 0;
 				else steps ++;
 				if (!goesRight){
