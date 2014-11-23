@@ -112,40 +112,7 @@ public class InputManager : MonoBehaviour
 				}
 
 				//Capture des actions
-        
-<<<<<<< HEAD
-				if (Input.GetAxis ("Weapon") > 0) {
-						if (Input.GetAxis ("ItemMenu") > 0) {
-								ItemMenu.OpenWeaponMenu ();
-						} else {
-								Player.UsingWeapon = true;
 
-								if (Player.Orientation == Player.Direction.Left)
-								if (OnNewCommand != null)
-										OnNewCommand (Command.Use_Weapon_Left);
-
-								if (Player.Orientation == Player.Direction.Right)
-								if (OnNewCommand != null)
-										OnNewCommand (Command.Use_Weapon_Right);
-						}
-				}
-        
-				if (Input.GetAxis ("Util") > 0) {
-						if (Input.GetAxis ("ItemMenu") > 0) {
-								ItemMenu.OpenUtilMenu ();
-						} else {
-								Player.UsingUtil = true;
-
-								if (Player.Orientation == Player.Direction.Left)
-								if (OnNewCommand != null)
-										OnNewCommand (Command.Use_Util_Left);
-
-								if (Player.Orientation == Player.Direction.Right)
-								if (OnNewCommand != null)
-										OnNewCommand (Command.Use_Util_Right);
-						}
-				}
-=======
         if (Input.GetAxis ("Weapon") > 0)
         {
             if (Input.GetAxis ("ItemMenu") > 0)
@@ -187,7 +154,7 @@ public class InputManager : MonoBehaviour
                 }
             }
         }
->>>>>>> 195c33578a87247d23b999b2bfb4d41800e993de
+
         
 				if (Input.GetAxis ("Passive") > 0) {
 						if (Input.GetAxis ("ItemMenu") > 0) {

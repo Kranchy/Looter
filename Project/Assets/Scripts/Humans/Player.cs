@@ -46,7 +46,7 @@ public class Player : Human
 				if (collision.contacts [0].normal.x == 0) {
 						OnGround = false;
 				}
-<<<<<<< HEAD
+
 		}
 
 
@@ -61,36 +61,9 @@ public class Player : Human
 //						OnGround = false;
 //	}
 
-		public void EquipWeapon (Weapon weapon)
-		{
-				Weapon = weapon;
-		}
-
-		public void EquipUtil (Util util)
-		{
-				Util = util;
-		}
-
-		public void EquipPassive (Passive passive)
-		{
-				Passive = passive;
-		}
-
-		public void UseWeapon (SpriteRenderer spriteRenderer)
-		{
-				UsingWeapon = true;
-				
-				UsingWeapon = false;
-		}
-
-		public void UseUtil ()
-		{
-				Util.Use ();
-		}
 
 
-=======
-	}
->>>>>>> 195c33578a87247d23b999b2bfb4d41800e993de
+
+
 }
 
