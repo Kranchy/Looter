@@ -1,22 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Items\Projectiles\Shovelo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Managers\HealthManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\Items\Utils\Shovel.cs" Line="27" Column="2" />
-      <File FileName="Assets\Scripts\Items\Projectiles\Arrow.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Items\Weapons\ThrowingKnife.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Items\Weapons\Bow.cs" Line="29" Column="105" />
-      <File FileName="Assets\Scripts\Items\Projectiles\Bombo2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Items\Weapons\Bomb.cs" Line="29" Column="4" />
-      <File FileName="Assets\Scripts\Items\Projectiles\Knife.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Obstacles\Sand.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Managers\AnimationManager.cs" Line="177" Column="10" />
-      <File FileName="Assets\Scripts\Managers\InputManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Items\Inherited\Weapon.cs" Line="22" Column="2" />
-      <File FileName="Assets\Scripts\Items\Inherited\Util.cs" Line="20" Column="40" />
-      <File FileName="c:\Users\7180\Desktop\Looter\Project\Assets\Scripts\Items\Utils\Hookshot.cs" Line="27" Column="4" />
-      <File FileName="Assets\Scripts\Items\Utils\Shield.cs" Line="27" Column="4" />
-      <File FileName="Assets\Scripts\Items\Projectiles\Shovelo.cs" Line="21" Column="40" />
+      <File FileName="Assets\Scripts\IA\GuardIA.cs" Line="16" Column="1" />
+      <File FileName="Assets\Scripts\Items\Inherited\Weapon.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Managers\HealthManager.cs" Line="17" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
