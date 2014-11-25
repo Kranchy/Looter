@@ -23,7 +23,8 @@ public class Bow : Weapon
     {
     }
 
-	public override void Effect (int side){
+	public override void Effect (int side)
+    {
 		if (side == 0)
         {
             GameObject go = Instantiate(Resources.Load("Prefabs/Projectiles/fleche"), transform.position, transform.rotation) as GameObject;

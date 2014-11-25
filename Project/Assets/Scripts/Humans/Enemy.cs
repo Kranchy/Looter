@@ -3,11 +3,27 @@ using System.Collections;
 
 public class Enemy : Human
 {
+    void Start()
+    {
+    }
+
+    void Update()
+    {
+        if (HP <= 0)
+        {
+            Destroy(gameObject);
+        }
+
+        if (gameObject.transform.position.y < -20)
+        {
+            HP = 0;
+        }
+    }
+
 	public void OnCollisionEnter2D(Collision2D collision)
 	{
 		if (collision.contacts[0].normal.x == 0)
 		{
-			
 			OnGround = true;
 		}
 	}
@@ -19,6 +35,7 @@ public class Enemy : Human
             Projectile projectile = ((Projectile)shotCollider.gameObject.GetComponent("Projectile"));
             if (projectile.IsAlly)
             {
+                Debug.Log(projectile.Damage);
                 HP -= projectile.Damage;
                 Destroy(shotCollider.gameObject);
             }

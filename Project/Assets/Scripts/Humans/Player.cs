@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 public class Player : Human
 {
+    private float tookDmgTime;
+    public float DamageDelay;
+
 	public Weapon Weapon { get; set; }
 	public Util Util { get; set; }
 	public Passive Passive { get; set; }
@@ -30,7 +33,20 @@ public class Player : Human
 	public List<Sprite> UpperAnimLeft;
 	public List<Sprite> JumpAnimRight;
 	public List<Sprite> JumpAnimLeft;
-	
+
+    void Start()
+    {
+        tookDmgTime = Time.time;
+    }
+
+    void Update()
+    {
+        //if (Physics.Raycast (transform.position + new Vector3(0,-1,0), -Vector3.up, 0.1f))
+        //    OnGround = true;
+        //else
+        //	  OnGround = false;
+    }
+
 	public void OnCollisionEnter2D(Collision2D collision)
 	{
 		if (collision.contacts[0].normal.x == 0)
@@ -46,15 +62,13 @@ public class Player : Human
 			OnGround = false;
 		}
 	}
-	
-	//	void Start(){
-	//
-	//		}
-	//
-	//	void Update() {
-	//		if (Physics.Raycast (transform.position + new Vector3(0,-1,0), -Vector3.up, 0.1f))
-	//						OnGround = true;
-	//				else
-	//						OnGround = false;
-	//	}
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if ((Time.time > tookDmgTime + DamageDelay) && !(collider.GetComponent("Projectile") as Projectile).IsAlly)
+        {
+            tookDmgTime = Time.time;
+            HP--;
+        }
+    }
 }

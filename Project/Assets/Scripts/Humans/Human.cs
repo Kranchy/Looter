@@ -1,11 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Human : MonoBehaviour {
-
+public class Human : MonoBehaviour
+{
 	public int HP;
 	public float Speed;
 	public float JumpSpeed;
 
     public bool OnGround;
+
+    void Start()
+    {
+    }
+
+    void Update()
+    {
+    }
 }

@@ -73,7 +73,7 @@
      <Compile Include="Assets\Scripts\Items\Weapons\ThrowingKnife.cs" />
      <Compile Include="Assets\Scripts\Managers\AnimationManager.cs" />
      <Compile Include="Assets\Scripts\Managers\CameraManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\HealthManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\EndGameManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Healthbar.cs" />
      <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Inventory.cs" />
