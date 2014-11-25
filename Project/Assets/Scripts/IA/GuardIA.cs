@@ -18,7 +18,7 @@ public class GuardIA : MonoBehaviour {
 
 		if ((gameObject.GetComponent ("Enemy") as Enemy).OnGround && Time.time < (autoTurn + 4))
         {
-            transform.Translate (new Vector3 ((gameObject.GetComponent ("Enemy") as Enemy).speed, 0, 0));
+            transform.Translate (new Vector3 ((gameObject.GetComponent ("Enemy") as Enemy).Speed, 0, 0));
 				if (goesRight){
 				//(gameObject.GetComponent ("SpriteRenderer") as SpriteRenderer).sprite = Resources.Load ("Sprite/AnimationGGroite/Garde" + steps) as Sprite;
 
@@ -33,8 +33,8 @@ public class GuardIA : MonoBehaviour {
 		}
         else
         {
-			(gameObject.GetComponent ("Enemy") as Enemy).speed = -(gameObject.GetComponent ("Enemy") as Enemy).speed;
-						transform.Translate (new Vector3 (3*(gameObject.GetComponent ("Enemy") as Enemy).speed, 0, 0));
+			(gameObject.GetComponent ("Enemy") as Enemy).Speed = -(gameObject.GetComponent ("Enemy") as Enemy).Speed;
+						transform.Translate (new Vector3 (3*(gameObject.GetComponent ("Enemy") as Enemy).Speed, 0, 0));
 			goesRight = !goesRight;
 			autoTurn = Time.time;
         }

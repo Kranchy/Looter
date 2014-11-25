@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public abstract class Weapon : Item
 {
     public int Damage;
-	public float Cd;
+	public float Cooldown;
 
     public List<Sprite> UsageAnimRight;
     public List<Sprite> UsageAnimLeft;
@@ -13,13 +13,13 @@ public abstract class Weapon : Item
     public AudioClip UsageSound;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start()
+    {
 	}
 
 	// Update is called once per frame
-	void Update () {
-	
+	void Update()
+    {
 	}
 
 	public abstract void Effect(int side);

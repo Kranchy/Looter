@@ -17,7 +17,6 @@ public class Player : Human
 	
 	public float SwimmingSpeed;
 	
-	public bool OnGround;
 	public bool UsingWeapon;
 	public bool UsingUtil;
 	
@@ -36,7 +35,6 @@ public class Player : Human
 	{
 		if (collision.contacts[0].normal.x == 0)
 		{
-			
 			OnGround = true;
 		}
 	}
@@ -48,7 +46,6 @@ public class Player : Human
 			OnGround = false;
 		}
 	}
-	
 	
 	//	void Start(){
 	//

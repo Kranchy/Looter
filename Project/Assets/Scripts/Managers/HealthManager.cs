@@ -33,7 +33,7 @@ public class HealthManager : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collider){
 
-				if ((Time.time > tookDmgTime + 2) && !(collider.GetComponent ("Projectiles") as Projectile).isAlly) {
+				if ((Time.time > tookDmgTime + 2) && !(collider.GetComponent ("Projectiles") as Projectile).IsAlly) {
 				
 						(gameObject.GetComponent ("Human") as Human).HP --;
 				

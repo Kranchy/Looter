@@ -127,7 +127,7 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
-			if(Time.time > useTime + Player.Weapon.Cd){
+			if(Time.time > useTime + Player.Weapon.Cooldown){
 				Player.Weapon.Effect (0);
 				useTime = Time.time;
 			}
@@ -142,7 +142,7 @@ public class AnimationManager : MonoBehaviour
 
                 Player.UsingWeapon = true;
             }
-			if(Time.time > useTime + Player.Weapon.Cd){
+			if(Time.time > useTime + Player.Weapon.Cooldown){
 				Player.Weapon.Effect (1);
 				useTime = Time.time;
 			}

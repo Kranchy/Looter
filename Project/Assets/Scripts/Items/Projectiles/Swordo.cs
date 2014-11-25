@@ -1,14 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Swordo : MonoBehaviour
+public class Swordo : Projectile
 {
-    public float Speed { get; set; }
-
-    public bool IsAlly { get; set; }
-
-    public int Damage { get; set; }
-
     // Use this for initialization
 	void Start ()
     {

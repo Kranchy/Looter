@@ -11,1981 +11,1066 @@ Platform assembly: C:\Users\7180\Desktop\Looter\Project\Looter_Data\Managed\Unit
 Loading C:\Users\7180\Desktop\Looter\Project\Looter_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\7180\Desktop\Looter\Project\Looter_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\7180\Desktop\Looter\Project\Looter_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.046 seconds
+- Completed reload, in  0.041 seconds
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.721529 ms
+UnloadTime: 0.531441 ms
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 572.
-Total: 97.251137 ms (FindLiveObjects: 0.050422 ms CreateObjectMapping: 0.023203 ms MarkObjects: 0.252111 ms  DeleteObjects: 0.029003 ms)
+Total: 1.369432 ms (FindLiveObjects: 0.047298 ms CreateObjectMapping: 0.022310 ms MarkObjects: 0.193657 ms  DeleteObjects: 0.029450 ms)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+UnloadTime: 4.631261 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 1215 unused Assets to reduce memory usage. Loaded Objects now: 152.
+Total: 8.972929 ms (FindLiveObjects: 0.078533 ms CreateObjectMapping: 0.043282 ms MarkObjects: 0.217752 ms  DeleteObjects: 7.479003 ms)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: needs reset, doing it
+FullResetD3DDevice
+ResetD3DDevice
+dev->Reset
+D3Dwindow device not lost anymore
+UnloadTime: 0.496190 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 602.
+Total: 1.377910 ms (FindLiveObjects: 0.053545 ms CreateObjectMapping: 0.029450 ms MarkObjects: 0.311011 ms  DeleteObjects: 0.032127 ms)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.SpriteRenderer:SetSprite_INTERNAL (UnityEngine.Sprite)
-  at UnityEngine.SpriteRenderer.set_sprite (UnityEngine.Sprite value) [0x00000] in <filename unknown>:0 
-  at AnimationManager.AnimJumpLeft () [0x00000] in <filename unknown>:0 
-  at AnimationManager.NewCommandHandler (Command command) [0x00000] in <filename unknown>:0 
-  at (wrapper delegate-invoke) InputManager/NewCommandHandler:invoke_void__this___InputManager/Command (InputManager/Command)
-  at InputManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at CameraManager.Update () [0x00000] in <filename unknown>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at HealthManager.OnTriggerEnter2D (UnityEngine.Collider2D collider) [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
