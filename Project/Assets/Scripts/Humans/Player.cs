@@ -49,15 +49,17 @@ public class Player : Human
 
 	public void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (collision.contacts[0].normal.x == 0)
+		if ((collision.contacts[0].normal.x == 0) && (collision.contacts[0].normal.y > 0))
 		{
 			OnGround = true;
-		}
+            Debug.Log(collision.contacts[0].normal.x);
+            Debug.Log(collision.contacts[0].normal.y);
+        }
 	}
 	
 	public void OnCollisionExit2D(Collision2D collision)
 	{
-		if (collision.contacts[0].normal.x == 0)
+        if ((collision.contacts[0].normal.x == 0) && (collision.contacts[0].normal.y > 0))
 		{
 			OnGround = false;
 		}

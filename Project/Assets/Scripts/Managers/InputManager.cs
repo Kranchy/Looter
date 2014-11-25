@@ -10,6 +10,9 @@ public class InputManager : MonoBehaviour
 	public ItemMenu ItemMenu;
 	
 	int JumpTime;
+    public int JumpTimeReference;
+    public int JumpVectorReference;
+
 	Vector3 Movement;
 	public enum Command
 	{
@@ -39,9 +42,9 @@ public class InputManager : MonoBehaviour
 				PlayerObject.transform.Translate(new Vector3(-Player.Speed, 0, 0));
 				Player.Orientation = Player.Direction.Left;
 				if (OnNewCommand != null) OnNewCommand(Command.Walk_Left);
-				if (Input.GetAxis("Jump") > 0)
+                if ((Input.GetAxis("Jump") > 0) && (JumpTime <= 0))
 				{
-					JumpTime = 5;
+					JumpTime = JumpTimeReference;
 					if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
 				}
 			}
@@ -50,17 +53,17 @@ public class InputManager : MonoBehaviour
 				PlayerObject.transform.Translate(new Vector3(Player.Speed, 0, 0));
 				Player.Orientation = Player.Direction.Right;
 				if (OnNewCommand != null) OnNewCommand(Command.Walk_Right);
-				if (Input.GetAxis("Jump") > 0)
+                if ((Input.GetAxis("Jump") > 0) && (JumpTime <= 0))
 				{
-					JumpTime = 5;
+					JumpTime = JumpTimeReference;
 					if (OnNewCommand != null) OnNewCommand(Command.Jump_Right);
 				}
 			}
 			else
 			{
-				if (Input.GetAxis("Jump") > 0)
+				if ((Input.GetAxis("Jump") > 0) && (JumpTime <= 0))
 				{
-					JumpTime = 5;
+					JumpTime = JumpTimeReference;
 					if (Player.Orientation == Player.Direction.Left)
 						if (OnNewCommand != null) OnNewCommand(Command.Jump_Left);
 					if (Player.Orientation == Player.Direction.Right)
@@ -70,14 +73,14 @@ public class InputManager : MonoBehaviour
 		}
 		if (JumpTime > 0)
 		{
-			RigidBody.AddForce(Vector3.up * 75);
+			RigidBody.AddForce(Vector3.up * JumpVectorReference);
 			JumpTime -= 1;
 		}
 		if (!Player.OnGround)
 		{
 			if (Player.Booted && Input.GetAxis("Jump") > 0)
 			{
-				JumpTime = 5;
+				JumpTime = JumpTimeReference;
 			}
 			if (Input.GetAxis("Horizontal") < 0)
 			{

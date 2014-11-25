@@ -35,7 +35,6 @@ public class Enemy : Human
             Projectile projectile = ((Projectile)shotCollider.gameObject.GetComponent("Projectile"));
             if (projectile.IsAlly)
             {
-                Debug.Log(projectile.Damage);
                 HP -= projectile.Damage;
                 Destroy(shotCollider.gameObject);
             }
